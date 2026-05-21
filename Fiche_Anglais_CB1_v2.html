@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fiche Anglais — CB1 ECT1 — Mme Boutrit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg: #0a1424; --bg-2: #0e1a2e; --card: #122036;
+  --text: #e6f0fa; --muted: #8aa5c2;
+  --blue: #3b82f6; --blue-deep: #1d4ed8; --indigo: #6366f1;
+  --cyan: #06b6d4; --teal: #14b8a6; --sky: #0ea5e9;
+  --azure: #38bdf8; --turquoise: #2dd4bf;
+  --slate: #94a3b8; --gold-warm: #fbbf24;
+  --border: rgba(59,130,246,.18);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg); color: var(--text); margin: 0;
+  font-family: 'Source Sans 3', system-ui, sans-serif; line-height: 1.65;
+  background-image: radial-gradient(ellipse at top, rgba(59,130,246,.07), transparent 50%), radial-gradient(ellipse at bottom, rgba(6,182,212,.05), transparent 50%);
+}
+.wrap { max-width: 1100px; margin: 0 auto; padding: 24px 18px 80px; }
+.hero { background: linear-gradient(135deg, rgba(59,130,246,.20), rgba(6,182,212,.10)); border: 1px solid rgba(59,130,246,.32); border-radius: 20px; padding: 32px 30px; margin-bottom: 28px; box-shadow: 0 4px 30px rgba(59,130,246,.10); }
+.hero-label { color: var(--azure); font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+.hero h1 { font-family: 'Playfair Display', serif; font-size: 40px; margin: 10px 0 8px; font-weight: 800; background: linear-gradient(120deg, #93c5fd, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.hero p { color: var(--muted); margin: 4px 0; font-size: 15px; }
+.priority-badge { display: inline-block; margin-top: 14px; padding: 8px 16px; background: linear-gradient(135deg, var(--blue), var(--cyan)); color: white; font-weight: 700; font-size: 13px; letter-spacing: 0.6px; border-radius: 6px; box-shadow: 0 2px 12px rgba(59,130,246,.30); }
+.planning { background: linear-gradient(135deg, rgba(20,184,166,.10), rgba(14,165,233,.05)); border: 1px solid rgba(20,184,166,.30); border-radius: 16px; padding: 22px 24px; margin: 30px 0; }
+.planning h2 { font-family: 'Playfair Display', serif; font-size: 24px; margin: 0 0 14px; color: var(--teal); }
+.planning .day { border-left: 3px solid var(--cyan); padding: 10px 14px; margin: 10px 0; background: rgba(6,182,212,.06); border-radius: 0 8px 8px 0; font-size: 14.5px; }
+.planning .day .date { font-weight: 700; color: var(--azure); font-family: 'Source Sans 3', sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: 0.8px; display: block; margin-bottom: 4px; }
+.planning .day.j-day { border-left-color: var(--gold-warm); background: rgba(251,191,36,.08); }
+.planning .day.j-day .date { color: var(--gold-warm); }
+.toc { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; margin: 24px 0; }
+.toc h3 { color: var(--azure); font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; margin: 0 0 12px; font-weight: 700; }
+.toc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
+.toc a { display: block; padding: 8px 12px; background: rgba(59,130,246,.08); color: var(--text); text-decoration: none; font-size: 14px; border-radius: 6px; border-left: 3px solid var(--blue); transition: background .15s, transform .15s; }
+.toc a:hover { background: rgba(59,130,246,.20); transform: translateX(2px); }
+.ch { background: linear-gradient(135deg, rgba(59,130,246,.22), rgba(29,78,216,.08)); border: 2px solid rgba(59,130,246,.35); border-radius: 18px; padding: 26px 28px; margin: 44px 0 20px; box-shadow: 0 4px 24px rgba(59,130,246,.12); }
+.ch .cn { color: var(--azure); font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+.ch h2 { font-family: 'Playfair Display', serif; font-size: 34px; margin: 6px 0; font-weight: 800; color: #93c5fd; }
+.ch p { color: var(--muted); margin: 4px 0; font-size: 14px; }
+.toc-ch { background: rgba(20,184,166,.06); border-left: 3px solid var(--teal); border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 0 0 22px; font-size: 13.5px; }
+.toc-ch a { color: var(--text); text-decoration: none; display: inline-block; margin: 3px 10px 3px 0; padding: 2px 8px; border-radius: 3px; background: rgba(20,184,166,.06); }
+.toc-ch a:hover { background: rgba(20,184,166,.20); color: var(--teal); }
+.toc-ch .roman { color: var(--teal); font-weight: 700; margin-right: 4px; }
+.sec-h { font-family: 'Playfair Display', serif; font-size: 26px; margin: 36px 0 14px; padding: 10px 0 8px; border-bottom: 2px solid rgba(59,130,246,.22); color: var(--text); font-weight: 700; }
+.sec-h .roman { color: var(--azure); margin-right: 14px; font-weight: 800; font-size: 30px; text-shadow: 0 0 18px rgba(59,130,246,.30); }
+h4.sub { font-family: 'Source Sans 3', sans-serif; font-size: 18px; font-weight: 700; margin: 24px 0 10px; color: var(--azure); padding-left: 10px; border-left: 4px solid var(--azure); }
+.blk { border-radius: 12px; padding: 16px 18px; margin: 14px 0; border: 1px solid var(--border); border-left-width: 5px; background: rgba(255,255,255,.02); }
+.blk-l { font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px; }
+.blk p { margin: 8px 0; }
+.blk ul, .blk ol { margin: 8px 0 8px 22px; padding: 0; }
+.blk li { margin: 4px 0; }
+.met { background: rgba(20,184,166,.10); border-color: rgba(20,184,166,.35); border-left-color: var(--teal); }
+.met .blk-l { color: var(--turquoise); }
+.def { background: rgba(59,130,246,.10); border-color: rgba(59,130,246,.35); border-left-color: var(--blue); }
+.def .blk-l { color: #93c5fd; }
+.civ { background: rgba(6,182,212,.10); border-color: rgba(6,182,212,.32); border-left-color: var(--cyan); }
+.civ .blk-l { color: #67e8f9; }
+.voc { background: rgba(14,165,233,.10); border-color: rgba(14,165,233,.32); border-left-color: var(--sky); }
+.voc .blk-l { color: var(--azure); }
+.modele { background: rgba(99,102,241,.10); border-color: rgba(99,102,241,.32); border-left-color: var(--indigo); }
+.modele .blk-l { color: #a5b4fc; }
+.piege { background: rgba(148,163,184,.10); border-color: rgba(148,163,184,.32); border-left-color: var(--slate); }
+.piege .blk-l { color: var(--slate); }
+.coeur { background: linear-gradient(135deg, rgba(29,78,216,.30), rgba(6,182,212,.12)); border: 2px solid rgba(59,130,246,.50); border-radius: 14px; padding: 22px 24px; margin: 20px 0; position: relative; box-shadow: 0 4px 20px rgba(59,130,246,.15); }
+.coeur::before { content: "★ À CONNAÎTRE PAR CŒUR"; position: absolute; top: -12px; left: 18px; background: var(--blue); color: white; padding: 4px 12px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; border-radius: 4px; box-shadow: 0 2px 8px rgba(59,130,246,.35); }
+.coeur p { margin: 10px 0; }
+.boutrit { background: rgba(251,191,36,.10); border-left: 4px solid var(--gold-warm); border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 12px 0; font-size: 14.5px; }
+.boutrit::before { content: "✍ Mme Boutrit"; display: block; font-weight: 700; color: var(--gold-warm); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+.slot { background: rgba(148,163,184,.08); border: 2px dashed rgba(148,163,184,.40); padding: 16px; border-radius: 8px; color: var(--muted); font-style: italic; margin: 14px 0; text-align: center; font-size: 14px; }
+.source { background: rgba(99,102,241,.08); border: 1px dashed rgba(99,102,241,.40); border-radius: 10px; padding: 16px 20px; margin: 14px 0; font-style: italic; font-size: 14.5px; line-height: 1.6; }
+.source .src-tag { display: block; font-style: normal; font-size: 11px; color: var(--indigo); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; font-family: 'Source Sans 3', sans-serif; }
+ol.method-steps { counter-reset: step; list-style: none; padding-left: 0; }
+ol.method-steps > li { counter-increment: step; position: relative; padding: 12px 14px 12px 52px; margin: 10px 0; background: rgba(20,184,166,.06); border-radius: 8px; border-left: 3px solid var(--teal); }
+ol.method-steps > li::before { content: counter(step); position: absolute; left: 10px; top: 10px; width: 32px; height: 32px; line-height: 32px; text-align: center; background: var(--teal); color: var(--bg); border-radius: 50%; font-weight: 700; }
+.tbl-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 14px 0; border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14px; }
+table.modele-essai { font-size: 13.5px; }
+th, td { border: 1px solid rgba(59,130,246,.18); padding: 10px 12px; vertical-align: top; text-align: left; }
+th { background: rgba(29,78,216,.20); font-weight: 700; color: var(--azure); font-size: 13px; letter-spacing: 0.4px; }
+td.fr { color: var(--muted); }
+table.voctable th:first-child { width: 8%; text-align: center; }
+table.voctable td:first-child { text-align: center; color: var(--azure); font-weight: 700; }
+.sentence { margin: 12px 0; padding: 12px 14px; background: rgba(99,102,241,.06); border-left: 3px solid var(--indigo); border-radius: 0 8px 8px 0; }
+.sentence .num { display: inline-block; background: var(--indigo); color: white; padding: 2px 9px; border-radius: 12px; font-size: 11.5px; font-weight: 700; margin-right: 8px; letter-spacing: 0.4px; }
+.sentence .fr { color: var(--muted); font-style: italic; }
+.sentence .final { background: rgba(45,212,191,.12); padding: 2px 5px; border-radius: 3px; border-bottom: 1px solid var(--turquoise); }
+mark.hi { background: rgba(251,191,36,.20); color: #fde68a; padding: 0 3px; border-radius: 2px; }
+mark.warn { background: rgba(244,63,94,.18); color: #fda4af; padding: 0 3px; border-radius: 2px; }
+mark.key { background: rgba(45,212,191,.18); color: var(--turquoise); padding: 0 3px; border-radius: 2px; font-weight: 600; }
+.sk-mamdani { background: linear-gradient(135deg, rgba(251,191,36,.10), rgba(20,184,166,.08)); border: 2px solid rgba(251,191,36,.32); border-radius: 14px; padding: 20px 22px; margin: 18px 0; position: relative; }
+.sk-mamdani::before { content: "🏛️ DOSSIER S.K. & MAMDANI"; position: absolute; top: -12px; left: 18px; background: var(--gold-warm); color: var(--bg); padding: 4px 12px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; border-radius: 4px; }
+ul.check { list-style: none; padding-left: 0; }
+ul.check li { padding: 8px 0 8px 32px; position: relative; border-bottom: 1px dashed rgba(59,130,246,.15); }
+ul.check li::before { content: "☐"; position: absolute; left: 4px; top: 6px; font-size: 18px; color: var(--azure); }
+.penalty { background: rgba(244,63,94,.10); border: 1px solid rgba(244,63,94,.32); border-left: 4px solid #f43f5e; padding: 14px 16px; border-radius: 0 8px 8px 0; margin: 14px 0; font-size: 14.5px; }
+.penalty .pen-hd { color: #fda4af; font-weight: 700; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; display: block; }
+footer.foot { text-align: center; padding: 30px 12px 0; font-size: 13px; color: var(--muted); border-top: 1px solid rgba(59,130,246,.15); margin-top: 50px; font-style: italic; }
+@media (max-width: 600px) {
+  .hero h1 { font-size: 28px; } .ch h2 { font-size: 26px; } .sec-h { font-size: 22px; }
+  .sec-h .roman { font-size: 24px; margin-right: 10px; } .wrap { padding: 16px 12px 60px; }
+  .toc-grid { grid-template-columns: 1fr; } .blk { padding: 14px; } .ch { padding: 20px 18px; }
+  table { font-size: 13px; min-width: 380px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="hero">
+  <div class="hero-label">Fiche · concours blanc 1</div>
+  <h1>Fiche Anglais — CB1 ECT1</h1>
+  <p>Mme Manuelle Boutrit · 22 → 27 mai 2026</p>
+  <p>4h (tiers-temps compris) · arrivée 13h55 chapelle</p>
+  <div class="priority-badge">⚠️ PRIORITÉ Q1 + Q2 → /20 · Thème = bonus si temps</div>
+</div>
+
+<div class="planning">
+  <h2>📅 Planning de révisions fragmentées</h2>
+  <div class="day"><span class="date">vendredi 22 mai</span>Méthode Q1 (résumé analytique comparatif) — verbatim étapes I→III · 11 reformulations <em>is said to / is reputed to</em></div>
+  <div class="day"><span class="date">samedi 23 mai</span><strong>Dossier Sadiq Khan / Zohran Mamdani</strong> — polycopié verbatim · civi London (32 boroughs, landmarks, City Hall Newham) · civi US (Trump, power grab, illiberal democracy)</div>
+  <div class="day"><span class="date">dimanche 24 mai</span>Vocabulaire <strong>CRIMES AND FELONIES</strong> (polycopié verbatim) · vocab essai (18 entrées social media + 17 ChatGPT) · vocab civi London &amp; US politique</div>
+  <div class="day"><span class="date">lundi 25 mai</span>Méthode thème (6 étapes) · 21 types d'erreurs · révision des thèmes corrigés (Stanfield, Kantchelov A&amp;B, Marie/Pierre, J-L Debré)</div>
+  <div class="day"><span class="date">mardi 26 mai</span>Méthode Q2 (essai 350w) — patriotism without xenophobia · grammaire (past, regret, conditionals) · révision essais modèles (S.K./Mamdani 385w, Trump 383w, ChatGPT 343w, social media 350w, patriotism)</div>
+  <div class="day j-day"><span class="date">mercredi 27 mai · JOUR J</span>Arrivée 13h55 chapelle · 3 copies + brouillon · stratégie : Q1+Q2 → thème uniquement si temps</div>
+</div>
+
+<div class="toc">
+  <h3>📑 Sommaire</h3>
+  <div class="toc-grid">
+    <a href="#c1">📂 1. Dossier S.K. / Mamdani</a>
+    <a href="#c2">🎯 2. Méthode Q1 (résumé)</a>
+    <a href="#c3">🎯 3. Méthode Q2 (essai LV1)</a>
+    <a href="#c4">🎯 4. Méthode Thème</a>
+    <a href="#c5">📜 5. Thèmes corrigés</a>
+    <a href="#c6">📰 6. Versions corrigées</a>
+    <a href="#c7">🏛️ 7. Civi London &amp; UK</a>
+    <a href="#c8">🇺🇸 8. Civi US politique</a>
+    <a href="#c9">🤖 9. Civi IA</a>
+    <a href="#c10">⚖️ 10. Crimes &amp; Felonies</a>
+    <a href="#c11">📚 11. Vocab essai &amp; civi</a>
+    <a href="#c12">🔤 12. Grammaire ciblée</a>
+    <a href="#c13">📋 13. Annales</a>
+    <a href="#c14">✅ 14. Checklist Jour J</a>
+  </div>
+</div>
+
+
+<!-- ====== CHAPITRE 1 — DOSSIER S.K. / MAMDANI ====== -->
+<div class="ch" id="c1">
+  <div class="cn">Chapitre 1</div>
+  <h2>Dossier Sadiq Khan &amp; Zohran Mamdani</h2>
+  <p>Polycopié officiel — consignes du 18 novembre 2022 — résumé analytique comparatif 350w ±10%</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c1-1"><span class="roman">I.</span> Le sujet officiel</a>
+  <a href="#c1-2"><span class="roman">II.</span> Sources (Doc.1 &amp; Doc.2)</a>
+  <a href="#c1-3"><span class="roman">III.</span> Méthode en 3 étapes</a>
+  <a href="#c1-4"><span class="roman">IV.</span> Tableau comparatif</a>
+  <a href="#c1-5"><span class="roman">V.</span> Modèle 385 mots</a>
+</nav>
+
+<h3 class="sec-h" id="c1-1"><span class="roman">I.</span> Le sujet officiel</h3>
+
+<div class="coeur">
+  <p><strong>ELVi — Question 1 selon les dernières consignes données (18 novembre 2022)</strong></p>
+  <p><strong>Question 1</strong> : résumé analytique comparatif des deux articles en langue anglaise — <strong>/30</strong></p>
+  <p style="text-align: center; font-size: 17px; padding: 12px; background: rgba(59,130,246,.10); border-radius: 6px;">« Based on Document 1's presentation of <strong>Sadiq Khan</strong> and Document 2's portrayal of <strong>Zohran Mamdani</strong>, how comparable are the mayors of London and New York City? »</p>
+  <p><strong>Calibrage :</strong> LVA 350 w. +/-10% — soit <strong>315 → 385 mots</strong></p>
+</div>
+
+<h3 class="sec-h" id="c1-2"><span class="roman">II.</span> Les deux sources</h3>
+
+<div class="blk def">
+  <div class="blk-l">Doc.1 — Sadiq Khan</div>
+  <p>Article du <strong>londonmuseum.org.uk</strong> présentant le <em>civic and political record</em> de Sadiq Khan.</p>
+</div>
+
+<div class="blk def">
+  <div class="blk-l">Doc.2 — Zohran Mamdani</div>
+  <p>Article <strong>BBC News du 5 novembre 2025</strong> par <strong>Anthony Zurcher</strong>, qui dépeint Zohran Mamdani et sa campagne.</p>
+</div>
+
+<h3 class="sec-h" id="c1-3"><span class="roman">III.</span> Méthode en 3 étapes</h3>
+
+<h4 class="sub">I. Understanding the question</h4>
+
+<div class="blk met">
+  <div class="blk-l">1. Translation</div>
+  <p>« En fonction de la présentation de Sadiq Khan par le document 1 et du portrait de Zohran Mamdani par le document 2, dans quelle mesure les maires de Londres et de New-York sont-ils comparables? »</p>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">2. Term analysis</div>
+  <ul>
+    <li><strong>"Based on Document 1's presentation of Sadiq Khan and Document 2's portrayal of Zohran Mamdani"</strong> = summarise the information given by each document without giving your own opinion</li>
+    <li><strong>"how comparable are the mayors of London and New York City"</strong> = to what extent are they comparable = from 0% to 100% comparable</li>
+  </ul>
+  <p style="text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 12.5px; padding: 10px; background: rgba(20,184,166,.06); border-radius: 6px;">0% ─ not at all ─ somewhat ─ partly ─ largely ─ overwhelmingly ─ entirely ─ 100%</p>
+</div>
+
+<h4 class="sub">II. Extracting the relevant elements</h4>
+
+<div class="blk met">
+  <div class="blk-l">étapes 1-2 — highlight + summarise</div>
+  <p><strong>1) Highlight</strong> the main info about <strong>Sadiq Khan</strong> from Doc.1 <mark class="hi">in yellow</mark></p>
+  <p><strong>+ summarise</strong> Sadiq Khan : <em>First Muslim mayor of London — working-class — supports trade-unions — human rights — Labour (prominent member since at least 2010) — Pakistani parents but born in London — faced racism and islamophobia on social media = tensions with Conservatives + Trump — agenda = anti-pollution fight + housing crisis</em></p>
+  <p><strong>2) Highlight</strong> Zohran Mamdani from Doc.2 <mark class="hi">in yellow</mark></p>
+  <p><strong>+ summarise</strong> : <em>First Muslim mayor of NYC — born in Africa — young and rose thanks to social media — no name in the Democratic Party and defeated the Democratic establishment — The Democratic governor of NYC will not fund his programme = free child care, expanded public transport — = a "socialist menace" : against the business elite + for government intervention in markets — 2 Democratic governors won on the same working-class agendas = a place for him among the Democrats</em></p>
+  <p><strong>3) Go back to each document</strong> :</p>
+  <ul>
+    <li>les <strong>similarities</strong> dans Doc.1 et Doc.2 en <mark class="key">une couleur</mark> (ex : vert)</li>
+    <li>les <strong>differences</strong> Docs 1 &amp; 2 en <mark class="hi">une autre couleur</mark> (ex : orange)</li>
+  </ul>
+</div>
+
+<h4 class="sub">III. Les parties du comparative summary</h4>
+
+<div class="blk met">
+  <div class="blk-l">3 parts comparatives</div>
+  <ol>
+    <li><strong>Vastly comparable backgrounds</strong></li>
+    <li><strong>Close agendas for their cities</strong></li>
+    <li><strong>Their position in politics in their respective countries</strong></li>
+  </ol>
+</div>
+
+<div class="boutrit">
+  ⚠️ <strong>Faire des parallèles doc à doc</strong> : attribuer à chaque doc ce qui lui est propre. Quand les deux convergent, exprimer la similarité ; quand l'un diffère, marquer la différence.
+</div>
+
+
+<h3 class="sec-h" id="c1-4"><span class="roman">IV.</span> Tableau comparatif S.K. / Z.M.</h3>
+
+<div class="sk-mamdani">
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th style="width: 50%;">Sadiq Khan (Doc.1)</th><th style="width: 50%;">Zohran Mamdani (Doc.2)</th></tr></thead>
+      <tbody>
+        <tr><td>1° <mark class="key">Muslim mayor of LDN</mark></td><td>1° <mark class="key">Muslim mayor of NYC</mark></td></tr>
+        <tr><td>working class</td><td>born in Africa</td></tr>
+        <tr><td>supports trade unions (= les syndicats)</td><td>young</td></tr>
+        <tr><td>human rights lawyer in the past</td><td>rose thanks to social media</td></tr>
+        <tr><td>Labour (a prominent member since 2010)</td><td>no name in the Democratic Party, yet defeated the Democratic establishment</td></tr>
+        <tr><td>Pakistani parents but born in LDN</td><td>the Democratic gov. of NY will not fund his agenda</td></tr>
+        <tr><td>islamophobic on social media by Conservatives &amp; Trump</td><td>agenda : <mark class="hi">free childcare</mark> + <mark class="hi">expanded public transport</mark></td></tr>
+        <tr><td>agenda — he fights against : pollution + housing crisis (has already risen)</td><td>"a socialist menace" → against the business elite → pro-gov. intervention in the markets</td></tr>
+        <tr><td></td><td>2 Democratic gov. won on the same working-class agendas → a place for him among Democrats</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="margin-top: 14px; padding: 10px; background: rgba(251,191,36,.10); border-radius: 6px; font-weight: 600; text-align: center;">→ Conclusion comparative : <strong>partly</strong> ? / <strong>largely comparable</strong> ?</p>
+</div>
+
+<h3 class="sec-h" id="c1-5"><span class="roman">V.</span> Modèle complet — 385 mots</h3>
+
+<div class="blk modele">
+  <div class="blk-l">structure</div>
+  <p><strong>1) Similarities</strong> → Doc 1 + Doc 2 / <strong>2) Differences</strong> → Doc 1 + Doc 2</p>
+</div>
+
+<div class="tbl-wrap">
+<table class="modele-essai">
+  <thead><tr><th style="width: 22%;">Section</th><th>Texte modèle (anglais)</th><th style="width: 28%;">Marge FR</th></tr></thead>
+  <tbody>
+    <tr><td><strong>INTRODUCTION</strong><br><em>Context given by the docs<br>+ Mention each document + ref. (author, source + date)<br>+ its object<br>(55 w.)</em></td><td>2024 saw the re-election of Sadiq Khan, a Muslim mayor, in London, and 2025 witnessed the first election of a Muslim mayor in New York City. The <em>londonmuseum.org.uk</em> article (Doc.1) presents Sadiq Khan's civic and political record while Anthony Zurcher, in a 5 November 2025 BBC News article (Doc.2), depicts Zohran Mamdani and his campaign.</td><td>(autour de S.K.) a été témoin de bilan / dépeint</td></tr>
+    <tr><td><strong>DEVELOPMENT</strong><br><em>Compare the 2 documents along 2 or 3 different themes (= 2 ou 3 parts) and rephrase in your own words.<br>Here, since each article tackles a different man, no need to mention the source in each sentence : it is obvious !</em></td><td><strong>First, they have vastly comparable backgrounds, albeit with some differences.</strong> The two men are presented as the first Muslim mayors in their respective cities, both with immigrant origins. The articles show that each one rose in politics without the financial cushion of their families. Indeed, Khan is of working-class descent, and Mamdani was elected with little financial backing. However, Khan is in his fifties and has been in politics for decades while Mamdani is a Gen Y-er and a newcomer in politics. <strong>(82 w.)</strong><br><br><strong>Then, both have leftist agendas, but with a difference.</strong> According to Doc.2, Mamdani aims to help working-class people through free child care, the expansion of public transport and by addressing high prices. Meanwhile, he has slammed NYC's capitalist elite. Likewise, Khan seeks to favour the working class, supporting trade unions, and also human rights since his career as a lawyer, while trying to tackle the housing crunch. Formerly, as a lawyer, he also stood up to the 'elite' — i.e. government and law enforcement. However, Doc.2 makes no mention of a green agenda for Mamdani, whereas Khan has implemented air pollution measures (Doc.1). <strong>(102 w.)</strong><br><br><strong>Although both face attacks, there is one main difference: Khan firmly belongs to the Labour establishment, while Mamdani must still carve out a place among US Democrats.</strong> Khan has long been a Labour MP, led the campaign that put Ed Miliband at the head of Labour in 2010, and held major positions in Opposition. Meanwhile, Mamdani is presented as an outlier within the Democratic Party. Acclaimed by the grassroots, he is not yet embraced by established Democrats due to an agenda which is deemed too radical and impossible to fund. This has been a godsend for the American right, which has begun resurrecting the socialist scare against him, whereas Khan has suffered racist slurs, and innuendoes of Islamism by the British right. <strong>(122 w.)</strong></td><td>= milieux sociaux diff · maires musulmans, ils se sont élevés en politique / est issu de la classe ouvrière / peu de soutien financier / est en politique depuis des décennies / un membre de la gén. Y<br><br>a pour but d'aider / garde d'enfants gratuite / il a attaqué l'élite capitaliste cherche à favoriser / soutenant les syndicats / la crise du logement / il a tenu tête au gouv. et aux forces de l'ordre<br><br>appartient aux cadres du Parti travailliste / doit encore se tailler une place au sein des Dém. / K. est depuis longtemps dép. trav. / un cas à part / Acclamé par la base / jugé trop radical / du pain béni / la terreur soc. / des insultes racistes et des insinuations</td></tr>
+    <tr><td><strong>CONCLUSION</strong><br><em>Brief global answer to Q1.<br>+ If you have enough words left, you can make a transition to Q2.</em></td><td>Therefore, according to the documents, both men are highly comparable, but <strong>can they inspire the rest of their countries, despite the opposition they face?</strong> <strong>(24 w.)</strong></td><td>Ces deux hommes peuvent-ils inspirer..., malgré l'opposition qu'ils rencontrent ?</td></tr>
+    <tr><td><strong>Word count</strong></td><td colspan="2"><strong>385 words</strong> (with // every 50 words + 50, 100… in the margin)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="boutrit">✍ Modèle 385 w — au-dessus du palier 350 ±10%, donc atterrir vers <strong>340-380 mots</strong> au CB sans dépasser. Si pénurie de matière sur Z.M., raccourcir la partie 3 (politique) plutôt que les similarities.</div>
+
+
+<!-- ====== CHAPITRE 2 — MÉTHODE Q1 ====== -->
+<div class="ch" id="c2">
+  <div class="cn">Chapitre 2</div>
+  <h2>Méthode Q1 — Résumé analytique comparatif</h2>
+  <p>Structure officielle + modèles d'entraînement (English flags 328w · Trump 383w)</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c2-1"><span class="roman">I.</span> Cadre &amp; consignes</a>
+  <a href="#c2-2"><span class="roman">II.</span> Structure</a>
+  <a href="#c2-3"><span class="roman">III.</span> Reformulations type</a>
+  <a href="#c2-4"><span class="roman">IV.</span> Modèle English flags</a>
+  <a href="#c2-5"><span class="roman">V.</span> Modèle Trump</a>
+</nav>
+
+<h3 class="sec-h" id="c2-1"><span class="roman">I.</span> Cadre &amp; consignes</h3>
+
+<div class="coeur">
+  <p><strong>ELVi — Q1 LVA</strong> = résumé analytique comparatif des 2 documents en anglais</p>
+  <p><strong>Calibrage</strong> : <strong>1/350 mots</strong> ± 10% — soit <strong>315 → 385 mots</strong></p>
+  <p><strong>Temps recommandé</strong> : <strong>1h15</strong></p>
+  <p><strong>Décompte</strong> : // tous les 50 mots, cumulatif en marge (50, 100, 150…), total en fin d'exercice.</p>
+</div>
+
+<h3 class="sec-h" id="c2-2"><span class="roman">II.</span> Structure en 3 parties</h3>
+
+<h4 class="sub">A. Introduction</h4>
+<div class="blk met">
+  <div class="blk-l">contenu obligatoire</div>
+  <p>L'introduction doit contenir : <strong>source</strong> (le journal), <strong>date</strong> de publication, <strong>authors</strong> (références des articles), <strong>topic</strong>, <strong>context</strong>.</p>
+</div>
+
+<div class="boutrit">
+  <strong>Both ≠ The two</strong> :
+  <ul>
+    <li><strong>Both</strong> = quand les deux docs partagent la même idée / le même avis</li>
+    <li><strong>The two</strong> = quand ils ont des avis différents</li>
+  </ul>
+</div>
+
+<h4 class="sub">B. Development (2 ou 3 parts)</h4>
+<div class="blk met">
+  <div class="blk-l">point clé</div>
+  <p>Présenter <strong>les opposite views</strong> ou <strong>les similarities</strong> sur 2 ou 3 thèmes communs aux deux docs.</p>
+  <ul><li>chaque partie = un thème commun</li><li>topic sentence en tête</li><li>arguments + illustrations alternant Doc.1 / Doc.2</li></ul>
+</div>
+
+<h4 class="sub">C. Conclusion</h4>
+<div class="blk met">
+  <div class="blk-l">structure</div>
+  <p>Make a brief summary of the comparison made + opening onto Q2, if enough words left.<br>(Sinon, reformuler Q2 !)</p>
+</div>
+
+<h3 class="sec-h" id="c2-3"><span class="roman">III.</span> Reformulations type (les 3 cas)</h3>
+
+<div class="blk met">
+  <div class="blk-l">cas 1 — source précise</div>
+  <p>On cite l'auteur dans la phrase.<br>Ex : <em>Selon D. Trump, des mesures de clandestins visent à éradiquer les gangs de la drogue.</em><br>→ <strong>"According to D. Trump, the mass deportations of undocumented immigrants aim to eradicate drug gangs"</strong> (présent).</p>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">cas 2 — pas de source précise, info attribuée</div>
+  <p>Reformulation avec « sont censés... ».<br>Ex : <em>Selon les rumeurs, des citoyens américains sont censés avoir été mis en détention.</em><br>→ <strong>"Some Seattle American citizens are rumoured to have been put in detention."</strong></p>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">cas 3 — info présentée comme incertaine (conditionnel journalistique)</div>
+  <p>Utiliser <em>is supposed / is said / is thought / is reputed / is claimed / is presumed / is understood to be / to have been / to have +ed</em>.</p>
+</div>
+
+<div class="blk voc">
+  <div class="blk-l">11 reformulations modèles</div>
+  <ol>
+    <li>According to / The COP28 <strong>is said to have failed</strong>.</li>
+    <li>This oil tycoon <strong>is thought to have been pushed</strong> to change attitudes under the pressure of oligarchs.</li>
+    <li>"Trump tariffs" <strong>are supposed to be</strong> a means to control the population.</li>
+    <li>He <strong>is said to have been</strong> very… (according to "Q", the saviour <strong>is reputed</strong> to eradicate…).</li>
+    <li>He <strong>is understood to hate</strong> children. → <em>Il est censé détester les enfants.</em></li>
+    <li>He <strong>is thought to have been</strong> very rich. → <em>Il est censé avoir été…</em></li>
+    <li>He <strong>is claimed to have legislated</strong> in the past.</li>
+    <li>It <strong>is reported to have abandoned</strong> his family.</li>
+    <li>It <strong>is presumed to be hiding</strong> at the embassy.</li>
+    <li>It <strong>is supposed to have been working</strong> very hard at the embassy.</li>
+    <li>The exchange rate <strong>is predicted to decrease</strong> on the coming day.</li>
+  </ol>
+</div>
+
+<div class="boutrit">Le verbe <strong>"to be" doit être conjugué au présent</strong> ("is said") puis <strong>"to + V" / "to have + V-ed"</strong> selon le tps de l'événement rapporté. Ex : <em>has been put</em> (action passée) vs <em>is hiding</em> (action présente).</div>
+
+<h3 class="sec-h" id="c2-4"><span class="roman">IV.</span> Modèle 1 — English flags (328 w)</h3>
+
+<div class="blk modele">
+  <div class="blk-l">contexte</div>
+  <p><strong>Q1 LV1</strong> : Modèle de résumé analytique comparatif sur deux articles autour des drapeaux anglais en 2025.</p>
+  <ul>
+    <li><strong>Doc.1</strong> — Druin Burch (30 August 2025) — opinion piece, Welsh village (Galldra)</li>
+    <li><strong>Doc.2</strong> — Charlie Buckland — spread of English flags / spray-painted Saint George's Crosses on the roads</li>
+  </ul>
+</div>
+
+<div class="tbl-wrap">
+<table class="modele-essai">
+  <thead><tr><th style="width: 24%;">Section</th><th>Texte modèle</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Introduction (two parts)</strong></td><td>According to Doc.1 and Doc.2, what is the symbolism of the English flags in today's UK? Mention each doc with its references (author, source and date), subject + context.</td></tr>
+    <tr><td><strong>1st part</strong> — symbolism of the English flag in today's UK</td><td>The two authors make a concession to the other point of view. Druin Burch concedes that some left-wing people (= progressives) consider the display of so many English flags as undermining the values of respect and inclusion, an opinion shared by the Guardian, whose stance is mentioned at the beginning of the article. Meanwhile, Charlie Buckland also relays the positive reactions on Facebook by people who embrace / approve the spread of the flags, as they feel proud of what they represent : the values of England. <em>(38 w.)</em></td></tr>
+    <tr><td><strong>2nd part</strong> — the opposition</td><td>Nevertheless, each author makes a conclusion to the opposing point of view. Druin Burch concedes that some English people, like the values of inclusion, are progressives. The display of so many English flags is undermining the values of respect and inclusion shared by the Guardian, whose stance is mentioned at the beginning of the article. Meanwhile, Charlie Buckland also relays the positive reactions on Facebook by people who embrace the spread of the flags, as they feel proud of what they represent : the values of England incarnate / embodies. <em>(39 w.)</em></td></tr>
+    <tr><td><strong>Conclusion (60 w.)</strong></td><td>To conclude, Druin Burch thinks that flying the English flag today is a way of showing devotion to and support of England, without any prejudice against foreigners. Whereas Charlie Buckland sees it as a mark of nationalism and rejection. <em>(39 w.)</em><br>So, the question arises : Does devotion to one's homeland invade the exclusion of foreigners ? <em>(14 w.)</em></td></tr>
+    <tr><td><strong>Word count</strong></td><td><strong>328 words</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+
+<h3 class="sec-h" id="c2-5"><span class="roman">V.</span> Modèle 2 — Trump (383 w)</h3>
+
+<div class="blk modele">
+  <div class="blk-l">contexte</div>
+  <p><strong>ELVi Question 1 — « Résumé analytique comparatif »</strong></p>
+  <p>Question : <strong>« According to the authors of document 1 and 2, to what extent has Donald Trump accomplished his plans? »</strong></p>
+  <p>Cf Question 2 : « <em>In your opinion, can 2026 be favourable to anti-Trump forces at home and abroad?</em> »</p>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">term analysis — to what extent</div>
+  <p>"<strong>to what extent</strong>" = mesurer entre 0% et 100% :</p>
+  <p style="text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 12.5px; padding: 10px; background: rgba(20,184,166,.06); border-radius: 6px;">0% ─ not at all ─ a little / partly ─ somewhat ─ largely ─ <mark class="hi">overwhelmingly</mark> ─ entirely ─ 100%</p>
+  <p><strong>"has Donald Trump accomplished his plans?"</strong> = dresser un bilan présent tel qu'il est proposé par chaque auteur sur le fait que D.T. a mis en œuvre ses projets ou pas et dans quelle mesure ?</p>
+</div>
+
+<div class="tbl-wrap">
+<table class="modele-essai">
+  <thead><tr><th style="width: 22%;">Section</th><th>Texte modèle</th><th style="width: 24%;">Marge FR</th></tr></thead>
+  <tbody>
+    <tr><td><strong>INTRODUCTION</strong> (42 w.)<br>References (source, date, author) + topic + context</td><td>In December 2025, two columns took stock of Donald Trump's first year in office: Max Burns, a long-standing Democratic strategist, wrote for THE HILL on December 10, while David A. Graham published his opinion piece in The Atlantic Daily on December 29.</td><td>2 chroniques ont fait le bilan de un stratège démocrate de longue date</td></tr>
+    <tr><td><strong>DEV — 1) The people around Trump</strong><br>(136 w.)<br>Here, opposite views :<br>• Burns thinks Trump has not accomplished his plans at all<br>• Graham thinks he has accomplished a lot</td><td><strong>First, the two authors sharply disagree on Donald Trump's success in choosing the people around him and attacking his adversaries.</strong> Burns claims that Trump is a megalomaniac who selects people based on their personal loyalty and veneration of him. As a result, he has ended up with an incompetent government. For example, the Department of Justice, where, according to David Graham, he has put his friends in charge, has been unable to prosecute two high-ranking officials. Burns also notes that a US Attorney had to quit her job because she was found to be inadequate for the position. By contrast, Graham argues that Trump has even managed to bend the law in order to install his allies in the Justice Department so that they can pursue his political enemies. He has also dismissed many federal workers.</td><td>sont totalement en désaccord · Burns affirme que / en fonction de · incapable de poursuivre / Une procureure Générale / elle a été jugée inapte pour le poste / Au contraire, / a même réussi à défier la loi · Il a aussi renvoyé beaucoup de fonctionnaires fédéraux</td></tr>
+    <tr><td><strong>DEV — 2) The actions</strong><br>(141 w.)</td><td><strong>Then, the two documents also stand poles apart on Donald Trump's achievements.</strong> For Burns, Trump has failed to address essential issues such as inflation, despite his promise to bring prices down from day one of his presidency. He is even responsible for the farming crisis which he caused with his customs duties on imported products. Not only that but he has no more policies in the pipeline for the remainder of his term. Much to the contrary, David A. Graham claims that "Trump 2" has been extremely productive: he has dismantled many of the policies he opposes, such as environmental rules, DEI initiatives and assistance to poor countries (he closed the USAID agency) and he has pushed his own agenda on developing more oil and gas extraction, for example, or cracking down on illegal immigration, sometimes to an excessive degree.</td><td>sont aussi diamétralement opposés / les réalisations / accomplies · a échoué à / malgré sa promesse de ramener les prix vers le bas / responsable de la crise agricole / a fait avancer son propre calendrier de mesures / sévir contre l'immigration clandestine</td></tr>
+    <tr><td><strong>CONCLUSION</strong> (64 w.)<br>Brief summary + opening</td><td>Therefore, Max Burns portrays Donald Trump's first year of his second term as an absolute waste of time, whereas David A. Graham contends that Trump has achieved an unprecedented concentration of power and has managed both to overturn many policies he disagrees with and to impose his own agenda. Whether he is an incompetent or an undemocratic president, will the resistance organise in 2026?</td><td>dépeint la première année de Trump / gaspillage de tps absolu / renverser beaucoup de mesures / Qu'il soit un président incompétent ou anti-démocratique, la résistance s'organisera-t-elle en 2026 ?</td></tr>
+    <tr><td><strong>Word count</strong></td><td colspan="2"><strong>383 words</strong> total</td></tr>
+  </tbody>
+</table>
+</div>
+
+
+<!-- ====== CHAPITRE 3 — MÉTHODE Q2 ====== -->
+<div class="ch" id="c3">
+  <div class="cn">Chapitre 3</div>
+  <h2>Méthode Q2 — Essai LV1 / Écricome</h2>
+  <p>Essai 250-350 mots · 3 modèles : patriotism, ChatGPT 343w, social media 350w</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c3-1"><span class="roman">I.</span> Cadre &amp; pénalités</a>
+  <a href="#c3-2"><span class="roman">II.</span> Structure</a>
+  <a href="#c3-3"><span class="roman">III.</span> 3 principes</a>
+  <a href="#c3-4"><span class="roman">IV.</span> Modèle patriotism</a>
+  <a href="#c3-5"><span class="roman">V.</span> Modèle ChatGPT</a>
+  <a href="#c3-6"><span class="roman">VI.</span> Modèle social media</a>
+</nav>
+
+<h3 class="sec-h" id="c3-1"><span class="roman">I.</span> Cadre &amp; pénalités</h3>
+
+<div class="coeur">
+  <p><strong>Ex 3 — the essay</strong> : 10 pts / 20 pts en <strong>250-350 words</strong> en 1h15.</p>
+  <p>Choix entre <strong>2 sujets</strong> (prendre le plus simple). Un sur le monde anglophone, l'autre général.</p>
+</div>
+
+<div class="penalty">
+  <span class="pen-hd">⚠️ pénalités à éviter</span>
+  <ul>
+    <li><strong>−1 / 20 par tranche de 2 mots</strong> écartée du nombre exact.</li>
+    <li>Décompte de mots à la fin · repère <strong>// tous les 50 mots</strong> · cumul en marge (50, 100…) · total exact.</li>
+    <li><strong>Lisibilité paramount</strong> : écrire toutes les 2 lignes (−1 ou −2 / 20).</li>
+    <li><strong>Accents respectés.</strong></li>
+  </ul>
+</div>
+
+<h3 class="sec-h" id="c3-2"><span class="roman">II.</span> Structure (intro / dev / conclu)</h3>
+
+<h4 class="sub">1) Introduction (2 phrases)</h4>
+<div class="blk met"><div class="blk-l">intro</div>
+  <ol type="a"><li><strong>Contextualise the question</strong> (= ce qui suscite la question)</li><li><strong>Rephrase the question in your own words</strong></li></ol>
+</div>
+
+<h4 class="sub">2) Development (2 ou 3 parts)</h4>
+<div class="blk met"><div class="blk-l">dev</div>
+  <ul><li>Topic sentence en tête de chaque partie</li><li>Une illustration concrète au moins</li><li>Connecteur + new topic sentence pour les autres parties</li><li>Stay on track !</li></ul>
+</div>
+
+<h4 class="sub">3) Conclusion (2 phrases)</h4>
+<div class="blk met"><div class="blk-l">conclu</div>
+  <ol type="a"><li>1 phrase de réponse à la question</li><li>1 phrase d'ouverture sur les perspectives futures</li></ol>
+</div>
+
+<h3 class="sec-h" id="c3-3"><span class="roman">III.</span> 3 principes ESSAI (verbatim)</h3>
+
+<div class="coeur">
+  <p><strong>I) Choisir le sujet</strong> qui vous inspire le plus en fonction de la thématique à maîtriser et de votre capacité à traduire ce sujet.</p>
+  <p><strong>II) Analyser les termes du sujet</strong> pour s'assurer de ne pas le modifier et de le traiter entièrement.<br><em>« 90% d'entre vous ont analysé les termes du sujet. »</em></p>
+  <p><strong>III) Penser à des exemples bien précis</strong> et réfléchir à ce qu'ils permettent de répondre à la question posée :</p>
+  <ul><li>*1 pour l'avenir, en fonction de ce que je sais aujourd'hui</li><li>*2 de nos observations, expériences...</li></ul>
+</div>
+
+<h3 class="sec-h" id="c3-4"><span class="roman">IV.</span> Modèle patriotism (Q2 ELV1)</h3>
+
+<div class="blk modele">
+  <div class="blk-l">sujet (Today is 9 March 2026)</div>
+  <p><strong>« In your opinion, to what extent is patriotism possible without xenophobia? »</strong></p>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">term analysis</div>
+  <ul>
+    <li><strong>"In your opinion"</strong> → "I believe that..."</li>
+    <li><strong>"to what extent"</strong> → mesurer un % (cf. tableau Q1)</li>
+    <li><strong>"patriotism"</strong> = healthy love and devotion for one's country</li>
+    <li><strong>"xenophobia"</strong> = fear / rejection / aversion of foreigners + hatred (haine) / prejudice / superiority feelings</li>
+  </ul>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">5 sources de matière</div>
+  <ol>
+    <li>mes cours (anglais — présent et passé) dans toutes les matières</li>
+    <li>mes acquis d'anglais et de toutes les matières (sur 2 ans)</li>
+    <li>ce que j'écoute (BBC News British, CBS News American, The Guardian British)</li>
+    <li>ma propre culture (Caveat : « I, my Old… »)</li>
+    <li>Mon vécu ou celui de mes proches</li>
+  </ol>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">organisation du brouillon</div>
+  <p><strong>I) Read through my reactions to doc 1, 2, 3, 4 and 5 to come up with my demonstration in response to the question.</strong></p>
+  <p><strong>II) My parts with their content :</strong></p>
+  <p><strong>Part 1 : healthy pride and devotion</strong></p>
+  <ul>
+    <li>doc 1 + 5 : sports</li>
+    <li>doc 3 : legitimate desire to affirm English identity in today's UK where only the English have no specific parliament, first minister or anthem</li>
+  </ul>
+  <p><strong>Part 2 : Is it still patriotism where there is an element of rejection / fear / scorn of others?</strong></p>
+  <ul>
+    <li>doc 2 : Saint George's Cross in Wales → English patriotism or <strong>nationalism</strong>?</li>
+    <li>doc 4 : US during WW2 — detention camps for Japanese Americans</li>
+  </ul>
+</div>
+
+<div class="tbl-wrap">
+<table class="modele-essai">
+  <thead><tr><th style="width: 24%;">Section</th><th>Texte modèle</th></tr></thead>
+  <tbody>
+    <tr><td><strong>MY THESIS</strong> (39 w.)</td><td>I believe that patriotism — i.e. love and devotion for your country — can exist without fear, rejection and scorn of others — i.e. without xenophobia — but we may wonder whether there are circumstances when patriotism may involve a degree of xenophobia.</td></tr>
+    <tr><td><strong>Part 1</strong><br>healthy pride and devotion</td><td><strong>Patriotism can indeed be devoid of xenophobia.</strong> According to <strong>Doc.1</strong>, patriotism is possible without a trace of xenophobia, for example during football tournaments, when it is celebrated in a merry atmosphere. Indeed, many English supporters follow their team abroad to support it without any confrontations with foreigners, just healthy pride. I also agree with <strong>Doc.5</strong> that the Nike advertising campaign in favour of the English female football side for the 2022 Euros promoted the strengths of the players without scorning foreign athletes (= les sportives étrangères) / despising / contemning / looking down on (= regarder de haut).<br><br>Besides, English patriotism in sport is a way to reaffirm the existence of a nation which has been feeling ignored within the UK, as <strong>Doc.3</strong> says : there is evidence of a loss of English identity through the lack of a separate English anthem, etc... I can even add that the English are the only Britons with no devolved Parliament to decide their own internal affairs, unlike the Scots, the Welsh and the Northern Irish. Their laws are voted by all the MPs in Westminster including those from Scotland, Wales and Northern Ireland (= Ulster). So, the awakening of English patriotism, with the display of English flags in England can thus be considered as a legitimate desire to assert an unrecognised identity.</td></tr>
+    <tr><td><strong>Part 2</strong><br>Yet, rejection of others?</td><td>Yet, is it still patriotism when there is an element of rejection of others? For <strong>Doc.2</strong>, when you spread English flags in Wales, it is not patriotism but nationalism. I concur with this idea since Wales was annexed by the English in 1283 and progressively had to abide by English laws from the sixteenth century on. It was a denial of Welsh identity, which was corrected with a devolved parliament and a Welsh first minister in 1998. Therefore, displaying English flags is a sign that some English people want to re-impose their grip on Wales. And that is nationalism — i.e. the desire to crush and swallow others to make your identity prevail. This nationalism is corroborated in Doc.2 by the Nazi swastikas (croix gammées) and the "Stop the Boats" inscriptions against illegal immigrants.<br><br>However, for <strong>Doc.4</strong>, you can attack others out of patriotism in the context of war : in frame 7 of the comic, we can see American soldiers fighting Nazism / G.I.s to prevent a nation from stifling all the other identities : patriots fight for the survival of their identity and sometimes, they have to attack others to do so. In that case patriotism includes a rejection of others to save the homeland (= la patrie).</td></tr>
+    <tr><td><strong>CONCLUSION</strong></td><td>Thus, patriotism is generally defined by fine feelings (= de beaux sentiments) but in case of war, when your identity is jeopardised (= mise en danger), patriotism is associated with rejection and violence for your own survival.</td></tr>
+  </tbody>
+</table>
+</div>
+
+
+<h3 class="sec-h" id="c3-5"><span class="roman">V.</span> Modèle ChatGPT (343 mots)</h3>
+
+<div class="blk modele">
+  <div class="blk-l">sujet</div>
+  <p><strong>« Will ChatGPT and other large language models ultimately serve or disserve humans? »</strong></p>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">analyse de termes</div>
+  <ul>
+    <li><strong>Will</strong> → futur</li>
+    <li><strong>ultimately</strong> → à la fin / au final (PAS "ultimement")</li>
+    <li><strong>serve</strong> → be useful for, be of service</li>
+    <li><strong>or</strong> → exclusif</li>
+    <li><strong>disserve humans</strong> → ne plus rendre service à l'humanité</li>
+  </ul>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">démonstration</div>
+  <p>« We will probably be able to prevent the worst effects, but chatbots may well <strong>blunt the reasoning abilities of humans</strong>. » (blunt ≠ sharpen)</p>
+  <p><strong>PARTS :</strong></p>
+  <ol>
+    <li>Chatbots will probably <strong>boost countries' economic growth</strong>.</li>
+    <li>However, chatbots may ultimately <strong>prove detrimental to the general population</strong>.</li>
+  </ol>
+</div>
+
+<div class="tbl-wrap">
+<table class="modele-essai">
+  <thead><tr><th style="width: 22%;">Section</th><th>Texte modèle</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Introduction</strong> (29 w.)</td><td>Many people fear that the emergence of chatbots will lead to the dumbing down of populations. Hence the question: Will chatbots end up serving human interests or harming them?</td></tr>
+    <tr><td><strong>Dev 1</strong> (137 w.) — boost growth</td><td>Chatbots will probably boost countries' economic growth. Indeed, they are highly effective at coding, allowing companies to develop software extremely quickly. As a result, they save both time and money — there is less need to pay workers — and they remove repetitive tasks from the human labour, freeing the human brain for more creative work. To those who fear the deep-learning abilities of these tools and their potential for self-improvement beyond human oversight, I would respond that we have already begun regulating chatbots so that they can no longer recommend suicide or spread racist ideas. Elon Musk's chatbot, Grok, remains largely unregulated, but if a scandal were to occur, Musk would be forced to react if software begins to go off track, by setting appropriate boundaries around chatbots' activities.</td></tr>
+    <tr><td><strong>Dev 2</strong> (132 w.) — detrimental</td><td>However, chatbots may ultimately prove detrimental to the harmless general population. Some human jobs will be replaced by chatbots, since the latter can perform certain tasks much faster and more exhaustively without getting paid or needing a rest, and being impaired by their emotions: they may eventually do most secretarial work, translations, etc., inducing massive unemployment and poverty. Even if governments succeed in subsidising the unemployed and lift them out of poverty, the feeling of uselessness may drive to depression and suicide, or violent rebellion. Meanwhile, another concern is the dumbing down of populations: as people increasingly turn to chatbots to do their work, only those who are disciplined enough to use them as sparring partners — with critical distance — will go on exercising and improving their intellectual skills.</td></tr>
+    <tr><td><strong>Conclusion</strong> (45 w.)</td><td>Therefore, chatbots will probably end up increasing inequalities between humans, thus causing more harm than good, but can they also transform the human mind and the way we think? After all, isn't that what all technological revolutions have done throughout the course of human history?</td></tr>
+    <tr><td><strong>Word count</strong></td><td><strong>343 words</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 class="sec-h" id="c3-6"><span class="roman">VI.</span> Modèle social media (350 mots)</h3>
+
+<div class="blk modele">
+  <div class="blk-l">sujet</div>
+  <p><strong>« Has social media added to or on the contrary taken away from our lives? »</strong></p>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">note préalable</div>
+  <p><strong>"social media"</strong> ici = <em>taken as a whole</em> → singulier. Peut aussi être pluriel (TikTok, Instagram séparés). Social media = social networks + news sources.</p>
+</div>
+
+<div class="tbl-wrap">
+<table class="modele-essai">
+  <thead><tr><th style="width: 22%;">Section</th><th>Texte modèle</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Introduction</strong> (31 w.)</td><td>As Facebook's seven-hour-long outage triggered panic in many of its users a few years ago, we may wonder: Is social media really a benefit or a diminishing factor in our lives?</td></tr>
+    <tr><td><strong>Dev 1</strong> (123 w.) — added</td><td>In some cases, social media has indeed helped small businesses prosper, allowed artists to showcase their works and they have spread information to a wider audience: social media can educate the masses or promote causes like #BlackLivesMatter. Indeed, a single free post can reach thousands of people in the blink of an eye. Thus, people around the world have an open space to communicate, get to know one another and open up to differences: Social media has made the general public generally more aware of gender differences and more tolerant of LGBTQ+ people. As a result, gay marriage is now legal in most Western countries. So, social media seems to be a boost to democracy.</td></tr>
+    <tr><td><strong>Dev 2</strong> (154 w.) — taken away</td><td>However, in some other instances, it has 'diminished' us (= reformulation de "has taken away from our lives"). It is gradually replacing face-to-face communication, and yet it is easy to become a social media addict. TikTok, for example, attracts users through its short, funny videos and keeps them engaged thanks to the diversity of its offers, as it is a search engine, an e-commerce and music platform, and a source of news, making teenagers often ignore their parents at mealtimes and spend more time scrolling than socialising with friends in real life. Some people are so engrossed in their apps that they become isolated and sometimes even socially dysfunctional. Such habits are slowly but surely dehumanising our society. Indeed, those who become slaves to machines lose their own free will. They gradually become trapped in an information bubble shaped by app algorithms and stop thinking independently, unaware of their intellectual conditioning. This is the exact opposite of the democratising potential we mentioned earlier.</td></tr>
+    <tr><td><strong>Conclusion</strong> (50 w.)</td><td>Thus, it is not as clear-cut as the question suggests: social media has been both an enriching, liberating tool, and a terrible trap, making it a double-edged sword. Will users become increasingly aware of this and manage to escape its stifling grip?</td></tr>
+    <tr><td><strong>Word count</strong></td><td><strong>350 words</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+
+<!-- ====== CHAPITRE 4 — MÉTHODE THÈME ====== -->
+<div class="ch" id="c4">
+  <div class="cn">Chapitre 4</div>
+  <h2>Méthode Thème — type Écricome</h2>
+  <p>6 étapes verbatim · 21 types d'erreurs · arbres de décision temps</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c4-1"><span class="roman">I.</span> 6 étapes verbatim</a>
+  <a href="#c4-2"><span class="roman">II.</span> Types d'erreurs</a>
+  <a href="#c4-3"><span class="roman">III.</span> Arbres décision temps</a>
+  <a href="#c4-4"><span class="roman">IV.</span> Pièges &amp; modaux</a>
+</nav>
+
+<h3 class="sec-h" id="c4-1"><span class="roman">I.</span> Les 6 étapes verbatim (29/09/25)</h3>
+
+<div class="boutrit"><strong>Rappel typographique</strong> : can't → oral / cannot → écrit</div>
+
+<ol class="method-steps">
+  <li><strong>We must translate an excerpt from a novel.</strong></li>
+  <li><strong>I read through the text, searching for stylistic devices to keep</strong> (répétitions, images...). Highlight them.</li>
+  <li><strong>I translate sentence by sentence, starting with each S/V.</strong>
+    <ul><li>Decide the vocabulary I will use.</li><li>Detect the tense in French and select the right tense in English.</li></ul>
+  </li>
+  <li><strong>Once I have translated the entire sentence, I check whether :</strong>
+    <ul>
+      <li>I. The word order sounds correct, or else I alter it.</li>
+      <li>II. The sentence is too long. If it is, I cut it into 2.</li>
+      <li>III. I forgot some words.</li>
+    </ul>
+  </li>
+  <li><strong>I cannot leave any blanks : I provide an approximate meaning.</strong></li>
+  <li><strong>At the end, I read through my translation to correct the grammar mistakes</strong> (sur les temps, je vérifie les "s") <strong>and the spelling mistakes</strong>.</li>
+</ol>
+
+<h3 class="sec-h" id="c4-2"><span class="roman">II.</span> Types d'erreurs (polycopié officiel)</h3>
+
+<div class="penalty"><span class="pen-hd">⚠️ NE JAMAIS PROPOSER UN CHOIX</span>Un choix entre deux traductions = erreur sanctionnée. <strong>Trancher, toujours.</strong></div>
+
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th>Code</th><th>Type d'erreur</th></tr></thead>
+  <tbody>
+    <tr><td><strong>om°</strong></td><td>omission</td></tr>
+    <tr><td><strong>ns</strong></td><td>non-sens (incompréhensible)</td></tr>
+    <tr><td><strong>CS</strong></td><td>contresens (ce n'est pas le sens du texte initial)</td></tr>
+    <tr><td><strong>Constr.</strong></td><td>construction de la phrase, d'un groupe de mots</td></tr>
+    <tr><td><strong>fs</strong></td><td>faux sens (ne change pas radicalement le sens)</td></tr>
+    <tr><td><strong>T</strong></td><td>temps erroné</td></tr>
+    <tr><td><strong>Conj</strong></td><td>conjugaison erronée</td></tr>
+    <tr><td><strong>GR</strong></td><td>grammaire</td></tr>
+    <tr><td><strong>calque</strong></td><td>tournure qui se calque sur le texte d'origine</td></tr>
+    <tr><td><strong>md</strong></td><td>maladroit, mal dit</td></tr>
+    <tr><td><strong>angl</strong></td><td>anglicisme</td></tr>
+    <tr><td><strong>dét</strong></td><td>déterminant erroné</td></tr>
+    <tr><td><strong>nb</strong></td><td>nombre (pluriel pour singulier, etc.)</td></tr>
+    <tr><td><strong>genre</strong></td><td>féminin pour masculin ou vice versa</td></tr>
+    <tr><td><strong>impropre</strong></td><td>mot non approprié au contexte</td></tr>
+    <tr><td><strong>à étoffer</strong></td><td>ajouter des mots</td></tr>
+    <tr><td><strong>reg</strong></td><td>registre de langue</td></tr>
+    <tr><td><strong>voc</strong></td><td>vocabulaire erroné</td></tr>
+    <tr><td><strong>o</strong></td><td>orthographe</td></tr>
+    <tr><td><strong>maj / min</strong></td><td>majuscule / minuscule</td></tr>
+    <tr><td><strong>P°</strong></td><td>punctuation</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="blk voc"><div class="blk-l">bonus</div>Pour les <strong>bonnes trouvailles : ±</strong> (= bonus de +0,25 ou +0,5)</div>
+
+<h3 class="sec-h" id="c4-3"><span class="roman">III.</span> Arbres de décision temps</h3>
+
+<div class="coeur">
+  <p><strong>Règle d'or — traduire l'imparfait français</strong></p>
+  <p><strong>1ère question :</strong> Est-ce que j'ai « était en train de » → <em>was V+ing</em> / « étions en train de » → <em>were V+ing</em> ?</p>
+  <p>→ <strong>Si OUI</strong>, est-ce que je peux aller jusqu'à « était en train de depuis un certain temps » → <em>had been + V-ing</em> ?</p>
+  <p>→ <strong>Sinon</strong> :</p>
+  <ul><li><strong>caractéristique passée</strong> → prétérit</li><li><strong>répétition d'action</strong> → prétérit / <em>would + V</em> / <em>used to + V</em></li></ul>
+</div>
+
+<div class="coeur">
+  <p><strong>Règle d'or — traduire le présent français</strong></p>
+  <p><strong>1ère question :</strong> « est en train de » → <em>is/are V+ing</em> ?</p>
+  <p>→ Si OUI, jusqu'à « est en train de depuis un certain tps » → <em>have been + V-ing</em> ?</p>
+  <p>→ Sinon : habitude présente → présent simple.</p>
+  <p>Ex : <em>Pourquoi je crie ? Je crie pour me faire entendre.</em> → <strong>"Why am I shouting? I have been shouting to be heard."</strong></p>
+</div>
+
+<h3 class="sec-h" id="c4-4"><span class="roman">IV.</span> Pièges &amp; modaux</h3>
+
+<div class="blk piege"><div class="blk-l">⚠️ piège imparfait avec to be / to know</div>Imparfait avec <strong>to be</strong> et <strong>to know</strong> :<br><s>had been being</s> → <strong>had been</strong> · <s>had been knowing</s> → <strong>had known</strong> · <s>were knowing</s> → <strong>knew</strong></div>
+
+<div class="blk piege"><div class="blk-l">⚠️ piège V-ing</div>L'anglais n'aime pas <strong>V-ing + V-ing</strong> à la suite !</div>
+
+<div class="blk piege"><div class="blk-l">⚠️ ordre des mots</div>Ordre naturel de l'anglais : <strong>S / V + COD</strong></div>
+
+<div class="blk voc"><div class="blk-l">modaux</div><strong>could</strong> ≠ <strong>might</strong> → <em>may</em><br><strong>could</strong> = capacité</div>
+
+<div class="boutrit">
+  Commencer par <strong>l'essai</strong> pour Écricome (= 10 pts / 20).<br>
+  Découpage 1h15 :
+  <ul><li>20-30 min : <strong>plan + brouillon</strong></li><li>35-40 min : <strong>rédaction au propre</strong></li><li>5 min : <strong>relecture</strong></li><li>5 min : <strong>décompte de mots</strong></li></ul>
+  Ensuite : Version (5 pts) puis Thème (5 pts).
+</div>
+
+
+<!-- ====== CHAPITRE 5 — THÈMES CORRIGÉS ====== -->
+<div class="ch" id="c5">
+  <div class="cn">Chapitre 5</div>
+  <h2>Thèmes corrigés</h2>
+  <p>5 thèmes complets phrase-par-phrase + 2 d'entraînement</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c5-1"><span class="roman">I.</span> Stanfield (Marc Levy)</a>
+  <a href="#c5-2"><span class="roman">II.</span> Kantchelov A</a>
+  <a href="#c5-3"><span class="roman">III.</span> Kantchelov B</a>
+  <a href="#c5-4"><span class="roman">IV.</span> Marie / Pierre</a>
+  <a href="#c5-5"><span class="roman">V.</span> J.-L. Debré</a>
+  <a href="#c5-6"><span class="roman">VI.</span> Entraînement</a>
+</nav>
+
+<h3 class="sec-h" id="c5-1"><span class="roman">I.</span> <em>La Dernière des Stanfield</em> (Marc Levy, 2017)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — Marc Levy, La Dernière des Stanfield, 2017</span>
+  Son destin avait changé un soir de l'hiver 1943, lors d'une réception à Washington, où ses parents étaient réunis autour de riches familles américaines sollicitées pour contribuer financièrement à l'effort de guerre. Les Stanfield tentaient de faire bonne figure. Leur fortune avait été dilapidée par le démon du jeu, qui possédait le père de Robert depuis longtemps.<br><br>
+  À vingt-deux ans, Robert n'était dupe ni de l'état des finances familiales ni du vice de son père, avec lequel il entretenait des relations distantes. Le jeune homme nourrissait le rêve de rendre à sa famille sa puissance et sa fortune.<br><br>
+  À leur table, entre autres convives, était assis un homme discret au crâne dégarni. Edward Wood était l'ambassadeur du Royaume-Uni, et comme Churchill et Roosevelt aimaient communiquer directement, sa charge s'en voyait réduite. Le discours avait été magnifique, et pourtant Wood n'avait d'yeux que pour le jeune Stanfield. Il y avait une raison à la fascination de l'ambassadeur. Un an plus tôt, il avait perdu à la guerre son fils du même âge.
+</div>
+
+<div class="sentence"><span class="num">S1</span> <span class="fr">Son destin avait changé...</span><br><strong>GR :</strong> plus-que-parfait → <em>had changed</em><br><strong>First :</strong> His destiny had changed on a 1943 winter evening during a reception in Washington DC, where his parents were gathered around wealthy American families who had been asked to contribute financially to the war effort.<br><span class="final">Final : His fate had taken a fresh turn on a winter evening in 1943, at a reception in Washington DC, where his parents were mingling with wealthy American families who had been approached to contribute financially to the war effort.</span></div>
+
+<div class="sentence"><span class="num">S2</span> Les Stanfields / to try · imparfait</div>
+
+<div class="sentence"><span class="num">S3</span> <span class="fr">Leur fortune avait été dilapidée...</span><br><span class="final">Final : Their fortune had been <mark class="hi">squandered</mark> through the gambling fever which had been holding Robert's father in its grip for a long time.</span></div>
+
+<div class="sentence"><span class="num">S4</span> <span class="fr">Robert n'était dupe ni de... ni de...</span><br><span class="final">Final : At twenty-two years of age, Robert did not delude himself about his family's financial state or about the vice of his father, with whom he kept a distant relationship.</span></div>
+
+<div class="sentence"><span class="num">S5</span> <span class="fr">Le jeune homme nourrissait...</span><br><span class="final">Final : The young man had been <mark class="hi">nurturing / pursuing</mark> the dream of restoring their power and their wealth to his family.</span></div>
+
+<div class="sentence"><span class="num">S6</span> <span class="fr">Un homme... était assis</span><br><span class="final">Final : At their table, among other guests, there sat a quiet bolding man / a discreet man with a <mark class="hi">receding hairline</mark>.</span></div>
+
+<div class="blk piege" style="font-size: 0.92em;"><div class="blk-l">vocab piège</div><strong>receding hairline</strong> = ligne de cheveux en train de reculer · <strong>balding</strong> = en train de devenir chauve · <strong>bald</strong> = chauve</div>
+
+<div class="sentence"><span class="num">S7</span> <span class="fr">Edward Wood était l'ambassadeur...</span><br><span class="final">Final : E. W. was the <mark class="hi">UK ambassador / British ambassador</mark>, and <mark class="hi">as / since</mark> C. and R. were fond of one-to-one communication, his duties were reduced.</span></div>
+
+<div class="sentence"><span class="num">S8</span> <span class="fr">Le discours avait été...</span><br><span class="final">Final : The speech had been <mark class="hi">amazing / magnificent</mark>, and yet, W. had been looking at / kept looking at / could not take his eyes off young Stanfield <mark class="hi">all along</mark>.</span></div>
+
+<div class="sentence"><span class="num">S9</span> <span class="final">Final : There was a reason for the fascination of the ambassador.</span></div>
+
+<div class="sentence"><span class="num">S10</span> <span class="final">Final : One year earlier / before, he had lost his son of the same age at war / in the war.</span></div>
+
+
+<h3 class="sec-h" id="c5-2"><span class="roman">II.</span> Écricome DS N.2 Thème A — Lefebvre/Victor (Kantchelov, 2025)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — Dimitri Kantchelov, Tout le monde garde son calme, 2025</span>
+  On lui avait annoncé la chose un lundi matin. Victor avait pénétré le hall d'entrée de l'usine, avait salué Christine de l'accueil, qui lui répondit sans même lever les yeux de sa paperasse. À peine était-il entré dans son bureau que le dénommé Lapin, collègue et copain de longue date, l'avait happé :<br>
+  — Aaah, Bromier ! Y'a Lefebvre qui t'attend dans son bureau.<br>
+  — Lefebvre ? s'était étonné Victor. Qu'est-ce qu'il m'veut, le vieux ?<br>
+  — L'a pas précisé. Seulement qu'il voulait te voir. Et dès que t'arrives.<br>
+  Victor se précipita vers l'atelier de fabrication. Il traversa l'endroit sans prêter attention aux ouvrières qui s'esquintaient la vie à la confection de parapluies bon marché, puis emprunta un escalier sahalin jusqu'à l'étage.
+</div>
+
+<div class="sentence"><span class="num">S1</span> <span class="final">The news had been broken to him on a Monday morning.</span></div>
+<div class="sentence"><span class="num">S2</span> <span class="final">V. had entered the factory's lobby, had greeted Christine from reception and she answered him without so much as taking her eyes off her paperwork.</span></div>
+<div class="sentence"><span class="num">S3</span> <span class="final">No sooner / As soon as / Right after he had entered his office, the so-called "Rabbit", a co-worker and a long-time friend, had intercepted him.</span></div>
+<div class="sentence"><span class="num">S4-5</span> « Hey, Bromier! Lefebvre's been waiting for you in his office. » / « Lefebvre? » Victor had been surprised. « What does the old man want from me? »</div>
+<div class="sentence"><span class="num">S9</span> <span class="final">Victor rushed / hurried / hastened towards the manufacturing workshop.</span></div>
+<div class="sentence"><span class="num">S10</span> <span class="final">He crossed the floor without paying attention to the women workers who were damaging their lives by making cheap umbrellas, then he took the stairs to the first floor.</span></div>
+
+<h3 class="sec-h" id="c5-3"><span class="roman">III.</span> Écricome DS N.2 Thème B — Cognac (Kantchelov, 2025)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — Dimitri Kantchelov, Tout le monde garde son calme, 2025</span>
+  La porte s'ouvrit et Lefebvre accueillit Victor avec un genre de sourire :<br>
+  — Ah, Bromier ! Asseyez-vous, je vous en prie, proposa-t-il en pointant du doigt un fauteuil club. Lui-même prit place au centre d'un long canapé en cuir.<br>
+  — Merci m'sieur Lefebvre, articula mal Victor. Le pédégé n'était pas homme à perdre son temps en politesses.<br>
+  — Bon, mon cher Bromier, vous n'êtes pas sans savoir que le secteur du parapluie vit un sacré chambardement. La faute à cette concurrence chinoise dont vous avez sûrement entendu parler.<br>
+  Sur ces mots, Lefebvre se saisit d'une bouteille de Cognac et en servit deux verres.<br>
+  — J'en suis le premier chagriné, appuya-t-il avec emphase. Pensez donc, une entreprise que mon père a fondée il y a cinquante-neuf ans.
+</div>
+
+<div class="sentence"><span class="num">S1</span> <span class="final">The door opened and Lefebvre welcomed V. with a <mark class="hi">weird-looking</mark> smile.</span></div>
+<div class="sentence"><span class="num">S2</span> <span class="final">« Oh, Bromier! Please, have a seat. » he offered, pointing to a club armchair.</span></div>
+<div class="sentence"><span class="num">S3</span> <span class="final">He himself sat down on the corners of a long leather sofa.</span></div>
+<div class="sentence"><span class="num">S4</span> <span class="final">« Thank you, Mr Lefebvre », Victor <mark class="hi">muttered</mark> with difficulty.</span></div>
+<div class="sentence"><span class="num">S5</span> <span class="final">The CEO was not a man to waste his time in <mark class="hi">petite talk</mark> (= small talk).</span></div>
+<div class="sentence"><span class="num">S6</span> <span class="final">You know that... / You are aware that...</span></div>
+<div class="sentence"><span class="num">S7</span> <span class="final">...about which you have been hearing / which you have certainly been hearing about.</span></div>
+<div class="sentence"><span class="num">S8</span> <span class="final">On those words, Lefebvre grabbed a bottle of Cognac and served / poured two drinks.</span></div>
+<div class="sentence"><span class="num">S9</span> <span class="final">« I have been the first to be aggrieved », he insisted emphatically.</span></div>
+<div class="sentence"><span class="num">S10</span> <span class="final">A company founded by my Dad fifty-nine years ago.</span></div>
+
+<h3 class="sec-h" id="c5-4"><span class="roman">IV.</span> Marie / Pierre / Marc (polycopié, 27/11/25)</h3>
+
+<div class="sentence"><span class="num">S1</span> Marie was walking slowly down the empty street, dejected.</div>
+<div class="sentence"><span class="num">S2</span> It was cold for a freezing wind had been blowing since morning.</div>
+<div class="sentence"><span class="num">S3</span> Suddenly, she caught sight of a silhouette around the corner of the street.</div>
+<div class="sentence"><span class="num">S4</span> A man was approaching.</div>
+<div class="sentence"><span class="num">S5</span> "Who are you?" Marie asked in a quavering voice (= voix chevrotante).</div>
+<div class="sentence"><span class="num">S6</span> "Don't be scared. Why are you shaking?"</div>
+<div class="sentence"><span class="num">S7</span> "I'm not shaking with fear. It's just that I've been walking in the rain."</div>
+<div class="sentence"><span class="num">S8</span> "I'm Pierre. I was looking for you", the man answered.</div>
+<div class="sentence"><span class="num">S9</span> She took a step forward, then stopped. She took a step back.</div>
+<div class="sentence"><span class="num">S10</span> She had crossed paths with him at the market but she had never dared to talk to him. Suddenly, she got scared.</div>
+<div class="sentence"><span class="num">S11</span> Pierre said, "I've been following your tracks all day. I was hoping to meet you."</div>
+<div class="sentence"><span class="num">S12</span> Marc was listening. She remained quiet.</div>
+<div class="sentence"><span class="num">S13</span> He added, "Once, we had agreed to see each other again someday."</div>
+<div class="sentence"><span class="num">S14</span> And he took a worn photograph out of his pocket.</div>
+
+<h4 class="sub">Dialogue Hi Marc / Mike (polycopié p.2)</h4>
+<div class="blk modele">
+  <div class="blk-l">10 phrases courantes</div>
+  <ol>
+    <li>"Hi, Marc!"</li>
+    <li>"Are you still working late at night?" — Yes, I am. You look tired.</li>
+    <li>"I have been clearing my office".</li>
+    <li>"We might go to the countryside to get some fresh air".</li>
+    <li>"Would you come with me?"</li>
+    <li>"Sure, I will."</li>
+    <li>"Shall we leave on Saturday morning?"</li>
+    <li>"All right, but only if you promise not to get lost again."</li>
+    <li>"Hey, it's not the first time that you have told me that!"</li>
+    <li>"OK, then, I'll prepare everything: the picnic, the map and the music."</li>
+  </ol>
+</div>
+
+<h3 class="sec-h" id="c5-5"><span class="roman">V.</span> <em>Une Histoire de Famille</em> — J.-L. Debré (24 oct 2019)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — J.-L. Debré, Une Histoire de Famille, 24 octobre 2019</span>
+  Mon père me fait signe de le suivre. Au bout d'un moment, nous retrouvons mon grand-père, Robert Debré. Le regard bleu éclaire toujours son visage mince, rayonnant d'intelligence et de bonté. Il est tranquillement assis au bord de l'eau. À ses côtés, mon arrière-grand-père se tient debout. Je le reconnais tout de suite, avec sa barbe blanche, son grand front, ses lunettes rondes, son regard malicieux. Il correspond au portrait que m'a offert mon père et que j'ai accroché dans mon bureau. En les observant tous les quatre, je suis frappé par leur air de famille.<br>
+  Jacques s'adresse à moi en hébreu, puis en yiddish.<br>— Bienvenue parmi nous! Je suis heureux de te voir, traduit-il.<br>— Nous vous attendions, m'indique Simon.<br>Jacques me demande ce que je recherche dans notre histoire de famille.<br>— Simplement mieux vous connaître afin de savoir d'où je viens, qui je suis.<br>— Sais-tu que les Juifs étaient auparavant écartés de la vie sociale?
+</div>
+
+<div class="blk voc"><div class="blk-l">titre — éléments-clé</div><strong>History</strong> = histoire (général) · <strong>Story</strong> = histoire / récit · <strong>Journey</strong> = trajet / parcours<br>Une histoire de famille = A family history.</div>
+
+<div class="sentence"><span class="num">S1</span> My father signals for me to follow him.</div>
+<div class="sentence"><span class="num">S2</span> After a while, we join my grandfather, Robert Debré.</div>
+<div class="sentence"><span class="num">S3</span> His blue gaze lights up his thin face, which is aligned with kindness and intelligence.</div>
+<div class="sentence"><span class="num">S4</span> He is sitting quietly by the river's edge.</div>
+<div class="sentence"><span class="num">S5</span> By his side, my great-grandfather is standing.</div>
+<div class="sentence"><span class="num">S6</span> I recognise him instantly with his white beard, his large forehead, his round glasses, his <mark class="hi">mischievous eyes</mark> (≠ malicious = malveillant).</div>
+<div class="sentence"><span class="num">S7</span> He matches the portrait that my father offered me and which I hung in my office.</div>
+<div class="sentence"><span class="num">S8</span> As I observe the four of them, I am struck by their amazing family resemblance.</div>
+<div class="sentence"><span class="num">S9</span> "I am happy to see you", my father tells them, and adds, "He has a passion for our family history."</div>
+<div class="sentence"><span class="num">Dial.</span> Jacques talks to me in Hebrew, then in Yiddish. "Welcome among us! / In our midst", he translates. "We have been waiting for you", Simon says. Jacques asks me what I am looking for in our family history. "I just want to know your father in order to know where I come from and who I am." "Do you know that Jewish people used to be put aside?"</div>
+
+<h3 class="sec-h" id="c5-6"><span class="roman">VI.</span> Thèmes d'entraînement (polycopié)</h3>
+
+<h4 class="sub">Thème 1 — Seinecé / Isabelle / Delphine</h4>
+<div class="source">
+  <span class="src-tag">📜 thème d'entraînement 1</span>
+  Seinecé était jaloux des parents d'Isabelle, jaloux de sa fille Delphine, jaloux de sa mère qui venait de mourir, jaloux de tous ceux qu'elle rencontrait, des commerçants, des rêves mêmes qu'elle pouvait avoir et dont il prétendait qu'elle les lui cachait.<br>
+  « C'est tout ce que tu trouves à me dire ? hurlait-il. Qu'est-ce que tu attends pour répondre? » Certains moments touchaient à une espèce de comique : « Pourquoi je crie ? Je crie pour me faire entendre, si tu veux le savoir! » Une phrase curieuse et déchirante revenait souvent et autorisait d'infinies discussions.<br>
+  « Attention, Isabelle! Ne me fais pas dire ce que je n'ai pas fait! »
+</div>
+
+<h4 class="sub">Thème 2 — Père / la boisson</h4>
+<div class="source">
+  <span class="src-tag">📜 thème d'entraînement 2</span>
+  Voyez-vous, la boisson était la faiblesse de Père. Il lui arrivait de rester sobre pendant des mois, et même des années d'affilée, et pendant ces périodes-là, il était bon comme le pain. Le matin, il se levait le premier et apportait une tasse de thé au lit à la mère, restait à la maison le soir à lire son journal, mettait de l'argent de côté pour s'acheter un costume et un chapeau melon neufs. Il riait de la folie des hommes qui, au fil des semaines, laissaient aux cafetiers l'argent qu'ils avaient si durement gagné. Parfois même, lorsqu'il avait une heure à perdre, il prenait une feuille de papier et un crayon et calculait avec précision la somme qu'il épargnait chaque semaine grâce à son abstinence.
+</div>
+
+
+<!-- ====== CHAPITRE 6 — VERSIONS CORRIGÉES ====== -->
+<div class="ch" id="c6">
+  <div class="cn">Chapitre 6</div>
+  <h2>Versions corrigées</h2>
+  <p>Articles VO traduits en FR avec annotations Mme Boutrit</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c6-1"><span class="roman">I.</span> DSA / Facebook</a>
+  <a href="#c6-2"><span class="roman">II.</span> Musk / Nvidia / SNAP</a>
+  <a href="#c6-3"><span class="roman">III.</span> Starbucks CEO / jet privé</a>
+  <a href="#c6-4"><span class="roman">IV.</span> Trump / Congress (lemonde.fr)</a>
+  <a href="#c6-5"><span class="roman">V.</span> Treasury / Starmer (Guardian)</a>
+</nav>
+
+<h3 class="sec-h" id="c6-1"><span class="roman">I.</span> DSA / Social media (DS A)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — DS A version</span>
+  As social media has proliferated worldwide — Facebook has 2.85 billion users — so too have concerns over how the platforms are affecting individual and collective wellbeing. Social media is criticized for being addictive by design and for its role in the spread of misinformation on critical issues from vaccine safety to election integrity, as well as the rise of right-wing extremism. Social media companies, and many users, defend the platforms as avenues for promoting creativity and community-building.
+</div>
+
+<div class="blk modele">
+  <div class="blk-l">corrigé clé</div>
+  Avec la prolifération des R.S. à l'international (Facebook compte 2,85 milliards d'utilisateurs), on a vu également augmenter les inquiétudes sur la façon dont les plateformes affectent le bien-être individuel et collectif.<br><br>
+  Les R.S. sont critiqués pour être addictifs par conception et pour leur rôle dans la dissémination de la désinformation sur des points critiques, allant de la sécurité des vaccins à l'intégrité des élections, ainsi qu'à l'émergence de l'extrême droite.<br><br>
+  Les entreprises de R.S., et beaucoup d'utilisateurs, défendent les plateformes comme des avenues pour promouvoir la créativité et le développement de communautés.
+</div>
+
+<h3 class="sec-h" id="c6-2"><span class="roman">II.</span> Musk / Nvidia / SNAP (Guardian, 11 nov 2025)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — Steven Greenhouse, The Guardian, Tue 11 Nov 2025</span>
+  <strong>Musk could be paid $1tn. Nvidia's worth $5tn. Yet America's poor are struggling to eat.</strong><br><br>
+  Tesla shareholders have just approved a $1tn pay package for Elon Musk and the market value of the chipmaker Nvidia has rocketed above $5tn. Not only that, the 10 richest billionaires in the US saw their collective wealth soar by $698bn over the past year, while Google's former CEO, Eric Schmidt, reportedly paid $110m for a 123-room mansion in Los Angeles to host events. We may be in a golden age for the super-rich — but it doesn't feel that way for the 42 million Americans who use Snap, the Supplemental Nutrition Assistance Program.
+</div>
+
+<div class="blk modele">
+  <div class="blk-l">corrigé fr</div>
+  Musk pourrait être payé 1 000 milliards de dollars. Nvidia vaut 5 000 milliards de dollars. Pourtant, les pauvres d'Amérique peinent à manger.<br><br>
+  Les actionnaires de Tesla viennent d'approuver une rémunération de 1000 milliards de dollars pour Elon Musk. Et la valeur sur le marché du fabricant de puces Nvidia a explosé, dépassant les 5000 milliards de dollars.<br><br>
+  Non seulement les 10 plus riches milliardaires des USA ont vu leur fortune collective augmenter de 698 milliards de dollars au cours de l'année passée, mais encore, l'ancien PDG de Google, Eric Schmidt, a accepté de payer 110 millions de dollars pour une villa de 123 pièces à L.A., pour y accueillir des événements.<br><br>
+  Nous pouvons être dans une ère pour les ultra-riches, mais cela ne représente pas le cas pour les 42 millions d'Américains qui utilisent Snap, le programme d'assistance nutritionnelle supplémentaire.
+</div>
+
+<div class="blk voc">
+  <div class="blk-l">vocab clé</div>
+  <ul>
+    <li><strong>moved to do something</strong> = a fait un mouvement pour</li>
+    <li><strong>SNAP / Supplemental Nutrition Assistance Program</strong> = programme d'aide alimentaire</li>
+    <li><strong>understatement</strong> = sous-estimation · <strong>to soar</strong> = augmenter brusquement · <strong>Gilded Age</strong> = Âge Doré</li>
+  </ul>
+</div>
+
+<h3 class="sec-h" id="c6-3"><span class="roman">III.</span> Starbucks CEO / private jet (Guardian, 27 août 2024)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — The Guardian, 27 August 2024</span>
+  <strong>Starbucks' CEO commutes to work by private jet</strong><br><br>
+  Last week Starbucks made headlines after it was revealed its new CEO, Brian Niccol, who has been described as the "messiah" the coffee company had been searching for, will be commuting to the office three days a week. But since he lives in California and is going to abide by the company's policy of being in the office three days a week, a corporate jet is really the only way to go. And the Starbucks HQ is more than a thousand miles away in Seattle. Did anyone sit down with a cup of coffee and ponder the optics of this before sealing the deal?
+</div>
+
+<div class="blk modele">
+  <div class="blk-l">corrigé fr (verbatim Boutrit)</div>
+  <strong>Title : Le PDG de Starbucks se rend au travail en jet privé</strong><br><br>
+  La semaine dernière, Starbucks a fait des gros titres après qu'il a été révélé que son nouveau PDG, Brian Niccol, qui a été décrit comme le « messie » que la compagnie de café recherchait depuis un certain temps, ferait la navette jusqu'au bureau en jet privé.<br><br>
+  Mais comme il vit en Californie et qu'il se conforme à la politique de l'entreprise de présence au bureau de 3 jours par semaine, un jet d'entreprise est vraiment la seule façon de s'y prendre. Et le siège (HQ) de Starbucks est à plus de 1 600 km, à Seattle.<br><br>
+  Quel est l'intérêt de cette posture pour ensuite envoyer votre PDG dans un jet privé une à deux fois par semaine ? Comme l'ont fait remarquer les groupes écologistes et de nombreuses personnes en colère sur internet, ce super-trajet quotidien fait passer l'agenda écologique prétendu de Starbucks pour une farce.
+</div>
+
+<h3 class="sec-h" id="c6-4"><span class="roman">IV.</span> Trump / Congress (lemonde.fr, 11 oct 2025)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — Hugo Toudic, lemonde.fr, 2025/10/11</span>
+  <strong>« In the United States, Congress no longer exists as a counterbalance »</strong><br><br>
+  What happened on October 7 in the United States Senate marked a decisive turning point in the country's democratic standing. Pam Bondi, the attorney general in President Donald Trump's administration, was summoned by the Judiciary Committee to respond to suspicions of political manipulation of the justice system. Instead of a typical Senate hearing, the attorney general staged an unprecedentedly brutal performance, refusing to answer any key questions.<br><br>
+  This television moment exposed the shift from a system based on the balance of powers to a government without checks. Before being appointed to lead the Department of Justice, Bondi served as Trump's personal lawyer during his first impeachment trial. Her loyalty is not to the institution: it remains that of a lawyer defending a client. The hearing, which was meant, among other things, to address the indictment of former FBI director James Comey — initiated just hours after the president publicly called him a "traitor" — was transformed into a political trial against opponents of the president.<br><br>
+  It was not just the attorney general's verbal violence that was striking, but also the silence of the Republican Party. Neither Charles Grassley, the veteran who chairs the Judiciary Committee, nor any of his colleagues called Bondi to order. Not one of them defended their Democratic counterparts, whom they have worked with for decades. This silence confirmed the moral surrender of a party that, since Trump's rise, has replaced institutional sense with fear and personal loyalty.
+</div>
+
+<h3 class="sec-h" id="c6-5"><span class="roman">V.</span> Treasury / Starmer (Guardian, 30 oct 2025)</h3>
+
+<div class="source">
+  <span class="src-tag">📜 Texte source — Pippa Crerar, The Guardian, Thursday 30 Oct 2025</span>
+  As opposition leader, Keir Starmer called for Boris Johnson to quit over his rule-breaking. "You cannot be a lawmaker and a lawbreaker and it's time to pack his bags," he said. "People will only believe we're changing politics when I fire someone on the spot. If a minister — any minister — makes a serious breach of the rules, they will be sacked," he said before the election.<br><br>
+  Few foresaw that he would be the first to undermine his own position, with his failure to see that accepting free clothes and Taylor Swift tickets could break what little belief there was that this government would be different. Since then, the scandals have come thick and fast.<br><br>
+  The Treasury minister quit in January as the government was being harmed by the furore over her close ties to her aunt, the ousted prime minister of Bangladesh now accused of corruption. The departure of Starmer's deputy, Angela Rayner, in September, after she underpaid stamp duty on her £800,000 seaside flat was the most serious blow yet.<br><br>
+  Now Chancellor Rachel Reeves, second only to the prime minister in seniority, could be in hot water. If she were to go, the whole Starmer project could come tumbling down. Downing Street announced that she had admitted to "inadvertently" breaking housing rules by renting out her London home without the specific £945 licence required by the local council. The prime minister had already consulted his ethics adviser, and decided that further investigation was "not necessary".
+</div>
+
+
+<!-- ====== CHAPITRE 7 — CIVI LONDON & UK ====== -->
+<div class="ch" id="c7">
+  <div class="cn">Chapitre 7</div>
+  <h2>Civilisation — London &amp; UK</h2>
+  <p>32 boroughs · landmarks · devolution · Brexit · Sadiq Khan en tant que maire</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c7-1"><span class="roman">I.</span> London chiffres</a>
+  <a href="#c7-2"><span class="roman">II.</span> Landmarks</a>
+  <a href="#c7-3"><span class="roman">III.</span> Sadiq Khan, maire</a>
+  <a href="#c7-4"><span class="roman">IV.</span> London cosmopolite</a>
+  <a href="#c7-5"><span class="roman">V.</span> UK devolution</a>
+  <a href="#c7-6"><span class="roman">VI.</span> Immigration</a>
+</nav>
+
+<h3 class="sec-h" id="c7-1"><span class="roman">I.</span> London — chiffres &amp; carte</h3>
+
+<div class="coeur">
+  <p><strong>London and its 32 boroughs</strong> (= 1 572 km², twice the size of NYC and 15 times the size of Paris)</p>
+  <p>London's population : <strong>9.9 million</strong> / NYC's population : 8.3 million</p>
+</div>
+
+<div class="blk civ">
+  <div class="blk-l">les pôles financiers</div>
+  <ul>
+    <li><strong>The City</strong> or "the City of London" — main financial district = original city of London. C'est <strong>une cité séparée de Londres aujourd'hui</strong>, donc <strong>ce n'est pas un borough de London</strong>.</li>
+    <li><strong>Canary Wharf</strong> — London's second financial district. Placé sur les Docks à <strong>Tower Hamlets</strong> pour revitaliser la zone. (<em>A wharf = un quai (au bord de l'eau = by the water)</em>)</li>
+  </ul>
+</div>
+
+<h3 class="sec-h" id="c7-2"><span class="roman">II.</span> A few London landmarks</h3>
+
+<div class="blk civ">
+  <div class="blk-l">les sites incontournables</div>
+  <ul>
+    <li><strong>Big Ben</strong> — the clock tower</li>
+    <li><strong>Westminster Palace</strong> (or the Houses of Parliament) — the MPs and the Lords</li>
+    <li><strong>Whitehall</strong> — the street lined with white government buildings</li>
+    <li><strong>10 Downing Street</strong> — the PM's residence</li>
+    <li><strong>Buckingham Palace</strong> — the king's official residence (although he lives in nearby Clarence House)</li>
+    <li><strong>The Thames</strong> — the river flowing in from the North Sea</li>
+    <li><strong>The City</strong>, with the famous "<strong>Gherkin</strong>" (= le Cornichon)</li>
+    <li><strong>The Globe</strong> — Shakespeare's theatre (Elizabethan theatres in the 16<sup>th</sup> century were open theatres)</li>
+  </ul>
+</div>
+
+<h3 class="sec-h" id="c7-3"><span class="roman">III.</span> Sadiq Khan, maire de Londres</h3>
+
+<div class="sk-mamdani">
+  <p><strong>City Hall</strong> (la mairie de Londres) was moved from <strong>Southwark</strong> ['Suthick'] to <strong>Newham</strong> by <strong>Mayor Sadiq Khan in 2022</strong> to revitalise that borough.</p>
+  <p style="margin-top: 10px;">→ Voir <a href="#c1" style="color: var(--gold-warm); font-weight: 600;">Chapitre 1 — Dossier Sadiq Khan / Mamdani</a> pour le détail biographique &amp; politique.</p>
+</div>
+
+<h3 class="sec-h" id="c7-4"><span class="roman">IV.</span> London cosmopolite (post-Brexit)</h3>
+
+<div class="blk civ">
+  <div class="blk-l">London : a British city?</div>
+  <p>About <strong>85% of Londoners</strong> who were born overseas come from Asia, Africa, the Americas and European countries (including those from Eastern Europe). They are all well represented.</p>
+  <p>Have the English a right to fear that the Channel Tunnel is an invitation to invaders? The flow of immigrants is often sharply criticised. Indeed, it is said that there is a lack of housing — 93,300 homes a year missing in London and the South-East.</p>
+  <p>Following the rise in housing prices (next 20% per year, mostly since 1995), London schools, the police, the underground, firefighters and local councils are having difficulty meeting demand : staff and public services are suffering. Yet, more people than ever are coming and staying.</p>
+</div>
+
+<div class="blk civ">
+  <div class="blk-l">London Makes People Dream</div>
+  <p>The British capital remains a magnet, even after Brexit. Its population has even increased over the past five years. The city also remains very popular with tourists all around the world : it is a city that never falls asleep — 20 million tourists each year.</p>
+  <p>Even though Brexit has not been very kind to its image — even though the tourism sector ran out of steam during the Covid years and Brexit — it is progressively picking up.</p>
+  <p>Following Brexit, the British capital is supposed to have gained nearly half a million new inhabitants. As a result, the housing market has been extremely tense. London is highly popular (« <strong>a real magnet</strong> ») and there are cranes and construction (= grues) everywhere on the streets.</p>
+</div>
+
+<div class="blk civ">
+  <div class="blk-l">London &amp; Brexit (23 June 2016)</div>
+  <p>What does London look like ten years after Brexit? On 23 June 2016, <strong>59.9% of Londoners voted for Remain</strong>, whereas the UK as a whole voted to Leave.</p>
+  <p>Temporary resident status and permanent resident status allow citizens to remain after Brexit came into force in January 2021. Olivier is fond of London's dynamism, which is rooted in liberalism : « In London, it is very simple. To start a business is very simple. »</p>
+  <p>The downside is that the welfare system is more restrictive than in France, and society is more competitive. However, London is highly recommended for its cosmopolitan character and its open-mindedness, where arguments go on and on, in a burst of laughter.</p>
+  <p><em>« It stands out from the rest of England, » Muriel states.</em> Londoners are indeed said to be tolerant, broad-minded (= large d'esprit). « Wearing a veil or a turban does not raise any issue here ». Respect is a fundamental value : communities live together in peace.</p>
+</div>
+
+<h3 class="sec-h" id="c7-5"><span class="roman">V.</span> UK — devolution &amp; Union Jack</h3>
+
+<h4 class="sub">A. Avant / maintenant — République d'Irlande</h4>
+<div class="blk civ">
+  <div class="blk-l">UK basics</div>
+  <p><strong>The United Kingdom of Great Britain and Northern Ireland</strong>.</p>
+  <p>Avant 1921, ce qui est aujourd'hui la République d'Irlande faisait partie de l'UK. Depuis 1949, <strong>Éire</strong> (= Ireland en gaélique) est un pays indépendant : <strong>the Republic of Ireland</strong>. Tous parlent <strong>anglais officiellement</strong>. Dublin = capitale d'Irlande.</p>
+</div>
+
+<h4 class="sub">B. Les Britanniques</h4>
+<div class="blk civ">
+  <div class="blk-l">populations</div>
+  <ul>
+    <li><strong>Scotland</strong> — Scots / Edinburgh — ≈ 5,5 M</li>
+    <li><strong>Wales</strong> — Welsh / Cardiff — ≈ 3 M</li>
+    <li><strong>England</strong> — English / London — ≈ 56 M (forte densité, infrastructures saturées, <em>housing crisis</em>)</li>
+    <li><strong>Northern Ireland</strong> — Northern Irish / Belfast — ≈ 1,2 M voters</li>
+  </ul>
+  <p><strong>Population totale UK ≈ 68 millions</strong> (comme la France).</p>
+</div>
+
+<h4 class="sub">C. Le drapeau du UK — The Union Jack</h4>
+<div class="blk civ">
+  <div class="blk-l">drapeau</div>
+  <p>"Jack" pour désigner un drapeau serait une contraction de "<em>Jacket</em>", porté par les soldats.</p>
+  <ul>
+    <li><strong>1066</strong> : William of Normandy envahit l'Angleterre.</li>
+    <li><strong>1283</strong> : Wales lawfully conquered by England.</li>
+    <li><strong>1707 Act of Union</strong> : Scotland forme une union avec England (+ Wales).</li>
+    <li><strong>1801 Act of Union</strong> : Ireland est ajoutée. Le drapeau combine :
+      <ul>
+        <li>fond bleu + croix blanche diagonale (Scottish) → <strong>Saint Andrew's Cross</strong></li>
+        <li>croix rouge droite + fond blanc (English) → <strong>Saint George's Cross</strong></li>
+        <li>croix rouge diagonale + fond blanc (Irish) → <strong>Saint Patrick's Cross / Saltire</strong></li>
+      </ul>
+    </li>
+  </ul>
+  <p>Le dragon gallois n'apparaît pas (annexion = pas d'Act of Union).<br>Patron Saints : Saint George (England) · Saint David (Wales) · Saint Andrew (Scotland) · Saint Patrick (Ireland).</p>
+</div>
+
+<h4 class="sub">D. Devolution since 1998</h4>
+<div class="blk civ">
+  <div class="blk-l">devolution</div>
+  <p><strong>1. Définition :</strong> The devolution of power is the <strong>transfer of power</strong>.</p>
+  <p><strong>2. Que s'est-il passé en 1998 ?</strong> Le PM du UK à l'époque était <strong>Tony Blair</strong>, du <strong>Labour Party</strong> (gauche, défense de l'égalité des droits).<br>
+  Tony Blair a constaté une inégalité de traitement entre les Anglais et les Écossais, Gallois, Nord-Irlandais. Il a mis en place la devolution :</p>
+  <ul>
+    <li>devolved parliament à <strong>Edinburgh</strong> (Scotland)</li>
+    <li>devolved parliament à <strong>Cardiff</strong> (Wales)</li>
+    <li>devolved parliament à <strong>Belfast</strong> (Northern Ireland)</li>
+  </ul>
+  <p>Depuis 1998, les Welsh et Northern Irish élisent des MPs pour le UK Parliament à Westminster (lois UK) ET leur propre parlement (lois internes).</p>
+</div>
+
+<div class="blk civ">
+  <div class="blk-l">exemple — higher education</div>
+  <ul>
+    <li>English tuition fees : <strong>≥ 10,000 pounds / year</strong></li>
+    <li>Scottish tuition fees for Scottish students : <strong>0 pound</strong></li>
+  </ul>
+</div>
+
+<h4 class="sub">E. Aujourd'hui — Keir Starmer (PM Labour)</h4>
+<div class="blk civ">
+  <div class="blk-l">UK politics 2025</div>
+  <p>The current UK has a PM named <strong>Keir Starmer</strong>, from the <strong>Labour Party</strong> (= travailliste), which is <strong>left-wing</strong>.<br>
+  Keir Starmer is the chief of the executive, who has been dismissing ministers for misdemeanours (délits mineurs).<br>
+  Before the 2024 general election, Sir Starmer had promised a blameless government respecting the rules of democracy, without undue privilege.</p>
+</div>
+
+<h3 class="sec-h" id="c7-6"><span class="roman">VI.</span> Bad feelings &amp; immigration</h3>
+
+<div class="blk civ">
+  <div class="blk-l">tensions</div>
+  <ul>
+    <li><strong>The Welsh</strong> feel left out → pas représentés dans le Union Jack.</li>
+    <li><strong>The Scots</strong> resent the English and the Welsh for <strong>Brexit</strong>, voted in a referendum → "British exit".</li>
+    <li><strong>The Northern Irish</strong> are divided :
+      <ul><li><strong>Irish origin / Catholics</strong> → want to unite with the Republic of Ireland.</li><li><strong>British origin / Protestants</strong> → want to remain in the UK.</li></ul>
+    </li>
+  </ul>
+</div>
+
+<div class="blk civ">
+  <div class="blk-l">immigration</div>
+  <ol>
+    <li><strong>Illegal immigration</strong> is fought hardily (immigration clandestine fortement combattue).</li>
+    <li><strong>Legal immigrants :</strong>
+      <ul>
+        <li>Brexit voted by majority in England and Wales pour contrôler l'immigration des citoyens UE.</li>
+        <li>Many "legal immigrants" sont issus des ex-colonies, désormais dans le <strong>Commonwealth</strong> (= la richesse commune).</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+
+<!-- ====== CHAPITRE 8 — CIVI US POLITIQUE ====== -->
+<div class="ch" id="c8">
+  <div class="cn">Chapitre 8</div>
+  <h2>Civilisation — US politique</h2>
+  <p>Trump · power grab · checks &amp; balances · impeachment · NYC sanctuary city · Statue of Liberty</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c8-1"><span class="roman">I.</span> Culture tips politiques</a>
+  <a href="#c8-2"><span class="roman">II.</span> The Establishment</a>
+  <a href="#c8-3"><span class="roman">III.</span> Trump : power grab</a>
+  <a href="#c8-4"><span class="roman">IV.</span> NYC &amp; sanctuary cities</a>
+  <a href="#c8-5"><span class="roman">V.</span> Mid-term elections</a>
+  <a href="#c8-6"><span class="roman">VI.</span> Statue of Liberty</a>
+</nav>
+
+<h3 class="sec-h" id="c8-1"><span class="roman">I.</span> Culture tips politiques</h3>
+
+<div class="coeur">
+  <p><strong>1) "Power grab"</strong> = excessive appropriation of power = l'accession au pouvoir d'un jour, tels que Maduro / Trump.</p>
+  <p><strong>2) "American democracy"</strong> = power to the people, not to one principle → rests on the <strong>system of checks and balances</strong> = le système des pouvoirs et contre-pouvoirs = chaque branche of government checks the others.<br>In the US, each branch of the executive is checked by the others. Trump is challenging the system of checks and balances by using the Justice Department to prosecute his opponents without judicial motive.</p>
+  <p><strong>3) The US is now called <mark class="hi">"an illiberal democracy"</mark></strong> : the leader was freely elected by the people in November 2024, but with a crackdown on civil liberties, especially the liberty to criticise and oppose the leader (prosecutions, firings, etc.).</p>
+</div>
+
+<h3 class="sec-h" id="c8-2"><span class="roman">II.</span> The Establishment</h3>
+
+<div class="blk civ">
+  <div class="blk-l">Culture tip — establishment</div>
+  <p><strong>I) "You're a socialist!"</strong> = ultimate insult hurled at a left-wing person in the US<br>→ "you're a threat to the survival of the US, which is grounded in <strong>liberal capitalism</strong>, not in welfare (les aides de l'État) → free enterprise and the reign of private wealth"</p>
+  <p><strong>II) The establishment</strong></p>
+  <ol>
+    <li><strong>of a country</strong> = the well-established people who hold the power :
+      <ul><li>political leaders</li><li>business leaders</li><li>the rich influential people</li><li>influential media leaders…</li></ul>
+    </li>
+    <li><strong>in politics</strong> : the Democratic establishment = l'appareil démocrate / les cadres du Parti démocrate / piliers = the well-established politicians in the party</li>
+  </ol>
+  <p><strong>III) The establishment exists in all countries.</strong></p>
+</div>
+
+<h3 class="sec-h" id="c8-3"><span class="roman">III.</span> Trump : power grab (13 avril 2026)</h3>
+
+<div class="blk civ">
+  <div class="blk-l">unseen Bahaareen — Trump fires Pam Bondi</div>
+  <p>D. Trump fired his Minister of Justice — <strong>Pam Bondi</strong> — and changed her with his former lawyer <strong>Todd Blanche</strong>.</p>
+  <p>The American President fired his Minister of Justice on Thursday 2 of April. The former lawyer of D.T. had defended him during his impeachment trial.</p>
+  <p>Indeed, P.B. clumsily oversaw the release of millions of documents in the Epstein case, with no consideration for the victims, with incomplete / censored files which had maintained the suspicion while the administration had been promising transparency.</p>
+  <p>Furthermore, D.T. blamed his Attorney General for not doing enough to pursue his enemies. She tried and failed especially with the former FBI director S.C. She is temporarily being replaced with the Next-in-command in the Department.</p>
+</div>
+
+<div class="blk voc">
+  <div class="blk-l">VOC clé — politique US</div>
+  <ul>
+    <li><strong>impeachment</strong> = mise en accusation = indictment</li>
+    <li><strong>to fire / to sack / to dismiss / to kick sb out</strong> = renvoyer / virer qqn</li>
+    <li><strong>former</strong> = ancien (≠ formerly = autrefois)</li>
+    <li><strong>committees</strong> = commissions (du Congrès)</li>
+    <li><strong>Attorney General</strong> = ministre de la Justice (US)</li>
+    <li><strong>the Department of Justice (DOJ)</strong> = le ministère de la Justice</li>
+  </ul>
+</div>
+
+<h3 class="sec-h" id="c8-4"><span class="roman">IV.</span> NYC &amp; sanctuary cities — DS 11 avril 2026</h3>
+
+<div class="blk civ">
+  <div class="blk-l">contexte — ELVi NYC and London</div>
+  <p><strong>Sujet du DS ELVI (= HEC et co) du 11 avril : NYC and London</strong> — Thème 1 NYC.</p>
+  <p>"Hands off!" That is what New Yorkers have been repeating since a spectacular operation by the federal immigration police — <strong>"Immigration and Customs Enforcement (ICE)"</strong> = forces de l'ordre / law enforcement — planned by the Trump administration against <strong>illegal street vendors</strong> in a busy shopping street of the city.</p>
+  <p>The intervention has become viral on the web. (passé composé / bilan présent / événement réalisé du 23 oct. 2025)</p>
+  <p>Last Tuesday, those officers — with their faces hidden by masks and caps — stopped / arrested nine Africans during an operation based on criminal activities linked to the sale of <strong>counterfeit goods</strong>. According to a statement from the Department of Homeland Security, they are <strong>undocumented immigrants</strong>.</p>
+  <p><strong>Todd Lyons</strong>, the head of the federal immigration police — ICE — announced right afterwards that New York City was going to see "a rise in arrests," as the city, which is called a "<strong>sanctuary city</strong>" (protects undocumented migrants).</p>
+  <p>The event has led a few hundred New Yorkers to take to the streets (= manifester = to demonstrate, to protest, to march).</p>
+  <p>At a press conference last Thursday, some political and religious leaders around the head of the City Council, <strong>Adrienne Adams</strong>, also got angry / expressed their anger blaming the Trump administration : "Stop threatening our public safety and our economy," they hammered out.</p>
+  <p>Reservists from the National Guard <strong>have been deployed</strong> across several Democratic cities (Washington DC…) since D. Trump's return to power.</p>
+</div>
+
+<div class="blk civ">
+  <div class="blk-l">Knowledge — two camps stand poles apart</div>
+  <ul>
+    <li>"sanctuary cities" → protecting illegal workers from abroad ; Democratic cities</li>
+    <li><strong>ICE</strong> (the anti-immigration police) — against the Trump administration</li>
+  </ul>
+</div>
+
+<h3 class="sec-h" id="c8-5"><span class="roman">V.</span> Mid-term elections (Nov 2026)</h3>
+
+<div class="blk civ">
+  <div class="blk-l">Préambule ELV1 Q1 Mid-terms</div>
+  <p>Democrats will soon see if they have been effective in combating Donald Trump because <strong>the mid-term elections</strong>, also called <strong>"the mid-terms"</strong>, are coming in <strong>November 2026</strong> = les élections de mi-mandat.</p>
+  <p>The mid-terms are not presidential elections! Voters elect officials for their State (sheriffs, governors, etc.) but also representatives and senators for the US Congress, which votes the laws for the country.</p>
+  <p>Today, M. Trump's camp, the Republicans, have a majority in :</p>
+  <ul><li>the <strong>Senate</strong></li><li>the <strong>House of Representatives</strong></li></ul>
+  <p>If the Democrats convince voters by November, they may hold a majority in :</p>
+  <ul><li>the <strong>Senate</strong></li><li>the <strong>House of Representatives</strong></li></ul>
+</div>
+
+<h3 class="sec-h" id="c8-6"><span class="roman">VI.</span> Statue of Liberty / The New Colossus (23 March 2026)</h3>
+
+<div class="blk civ">
+  <div class="blk-l">les mots du jour</div>
+  <p><strong>a) Empowerment</strong> = les gains du pouvoir (pour les gens en déficit de pouvoir)</p>
+  <p><strong>b) Power grab</strong> = la captation du pouvoir / se saisir du pouvoir</p>
+</div>
+
+<div class="blk civ">
+  <div class="blk-l">The Statue of Liberty — fact sheet</div>
+  <ul>
+    <li>Faces the island of <strong>Manhattan</strong>, one of the 5 boroughs making up New York City</li>
+    <li>The first symbol of the US. A present from France to celebrate the centennial of the Declaration of Independence (4 July 1776). Work of <strong>Bartholdi</strong>, a French sculptor and painter who built it based on the rough drawings of <strong>Gustave Eiffel</strong> in Paris.</li>
+    <li>Initially nicknamed "<strong>Liberty Shining a Light over the World</strong>" / "<strong>Lady Liberty</strong>" was unveiled to the public in <strong>1886</strong>.</li>
+    <li>Inspired from the Roman goddess <strong>Libertas</strong>, it wears a toga and holds a torch in its right hand while its left hand holds a tablet with the date of the <strong>Declaration of Independence</strong>. The <strong>7 crown rays</strong> represent the 7 continents (broken chains = symbolising the abolition of slavery).</li>
+    <li>The Statue became a symbol of hope for millions of immigrants because it was the first monument they could see when approaching <strong>Ellis Island</strong>, the major immigration center in the US (1892-1954).</li>
+  </ul>
+</div>
+
+<div class="blk modele">
+  <div class="blk-l">VERSION — "The New Colossus" / La Nouvelle Colosse</div>
+  <p>The most famous poem in the US (Emma Lazarus), referring to :</p>
+  <ol>
+    <li>The old Colossus of Rhodes, which no longer exists (one of the 7 wonders of antiquity, destroyed)</li>
+    <li>The Statue of Liberty</li>
+  </ol>
+  <p>« <em>Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tost to me. I lift my lamp beside the golden door !</em> »<br>
+  → <em>Donnez-moi vos masses fatiguées, vos masses aglutinées aspirant à respirer l'air de la liberté, le misérable rebut de vos rivages, les sans-abri, ballotés par la tempête. Envoyez-les moi, ceux-ci, à côté de la <strong>"porte d'or"</strong> (= the gilded door = la porte dorée), où ils peuvent participer à l'American Dream.</em></p>
+</div>
+
+
+<!-- ====== CHAPITRE 9 — CIVI IA ====== -->
+<div class="ch" id="c9">
+  <div class="cn">Chapitre 9</div>
+  <h2>Civilisation — Artificial Intelligence</h2>
+  <p>Définition · applications · Asimov's laws · régulation EU/US/UK</p>
+</div>
+
+<h3 class="sec-h"><span class="roman">I.</span> Définition</h3>
+<div class="blk civ">
+  <div class="blk-l">AI definition</div>
+  <strong>Artificial Intelligence = AI</strong> = any digital system that can replicate / imitate human intelligence and the use of autonomous machinery / autonomous thinking.<br>
+  = tout système numérique pouvant imiter l'intelligence humaine et le fonctionnement autonome ou la pensée autonome.
+</div>
+
+<h3 class="sec-h"><span class="roman">II.</span> Examples of AI systems</h3>
+<div class="blk civ">
+  <div class="blk-l">applications</div>
+  <ul>
+    <li><strong>Large language models</strong> (LLM) like ChatGPT → generate fluent, pertinent responses</li>
+    <li><strong>Autonomous driving / autopilots</strong> → in aviation</li>
+    <li><strong>AI games</strong> → playing chess with an automated opponent</li>
+    <li><strong>AI-driven robots</strong> used as <strong>care givers</strong></li>
+    <li><strong>SCAR</strong> (military robots)</li>
+    <li><strong>Siri</strong>, a virtual assistant</li>
+  </ul>
+</div>
+
+<h3 class="sec-h"><span class="roman">III.</span> Ethical boundaries (Asimov)</h3>
+<div class="blk civ">
+  <div class="blk-l">Isaac Asimov's laws</div>
+  Les 3 lois de la robotique d'Asimov s'appliquent à l'IA : AI systems must be designed so that <strong>they cannot harm humans</strong>.<br>
+  AI systems should also be designed with restrictions :
+  <ul>
+    <li>prevented from giving dangerous information</li>
+    <li>prevented from relating violent discourse, racist ideas</li>
+    <li>they should be accompanied with a warning about misleading content</li>
+  </ul>
+</div>
+
+<h3 class="sec-h"><span class="roman">IV.</span> Régulation — situation comparée</h3>
+<div class="blk civ">
+  <div class="blk-l">cadre légal</div>
+  <ul>
+    <li><strong>EU :</strong> <strong>GDPR (RGPD) — 2018</strong>. AI firms must consult users to use their data.</li>
+    <li><strong>Italy :</strong> a banni un système IA après qu'il a poussé un teenager au suicide.</li>
+    <li><strong>US &amp; UK :</strong> there is <strong>no AI legislation yet</strong> at national level.</li>
+  </ul>
+</div>
+
+<h3 class="sec-h"><span class="roman">V.</span> Arguments pro/contre régulation</h3>
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th>Pro-régulation</th><th>Contre-régulation</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>
+        <ul>
+          <li>Protect data privacy (blackmail risk)</li>
+          <li>Avoid harm to vulnerable users (ex : Italy, teen suicide)</li>
+          <li>Prevent copyright theft for companies</li>
+          <li>Ethical limits (Asimov's laws)</li>
+          <li>GDPR / 1st law of robotics</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Should not hinder AI development</li>
+          <li>US / UK : want to be ahead of the competition</li>
+          <li>AI fields = medical, transport industry — huge profits</li>
+          <li>The more data, the more performant AI becomes</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<!-- ====== CHAPITRE 10 — CRIMES AND FELONIES ====== -->
+<div class="ch" id="c10">
+  <div class="cn">Chapitre 10</div>
+  <h2>VOCABULARY — CRIMES AND FELONIES</h2>
+  <p>Polycopié officiel — verbatim · <strong>CAUTION : 'a' OR Ø ?</strong></p>
+</div>
+
+<div class="boutrit">
+  <strong>CAUTION : 'a' OR Ø ?</strong><br>
+  Attention au déterminant : <em>a crime / a felony / a misdemeanour</em> (article indéfini) vs <em>misconduct / sexual abuse</em> (sans article).
+</div>
+
+<h3 class="sec-h"><span class="roman">I.</span> Définitions générales</h3>
+
+<div class="tbl-wrap">
+<table class="voctable">
+  <thead><tr><th>FR</th><th>EN</th></tr></thead>
+  <tbody>
+    <tr><td class="fr">un crime (terme général)</td><td><strong>a crime</strong></td></tr>
+    <tr><td class="fr">un délit mineur</td><td><strong>a misdemeanour</strong></td></tr>
+    <tr><td class="fr">une infraction (peut être mineure ou grave)</td><td><strong>an offence</strong></td></tr>
+    <tr><td class="fr">un acte répréhensible ou des actes répréhensibles</td><td><strong>wrongdoing</strong></td></tr>
+    <tr><td class="fr">une mauvaise conduite / un ou des comportements fautifs</td><td><strong>misconduct</strong></td></tr>
+    <tr><td class="fr">un délit en col blanc (un délit financier)</td><td><strong>a white-collar crime</strong></td></tr>
+    <tr><td class="fr">un crime grave</td><td><strong>a felony</strong></td></tr>
+    <tr><td class="fr">un abus sexuel</td><td><strong>sexual abuse</strong></td></tr>
+    <tr><td class="fr">porter plainte contre quelqu'un</td><td><strong>to file a complaint against someone</strong></td></tr>
+    <tr><td class="fr">un délinquant sexuel</td><td><strong>a sex offender</strong></td></tr>
+    <tr><td class="fr">être accusé d'avoir agressé sexuellement une femme (pas encore confirmé)</td><td><strong>to be accused of sexually assaulting a woman</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 class="sec-h"><span class="roman">II.</span> Accusation / arrestation</h3>
+
+<div class="tbl-wrap">
+<table class="voctable">
+  <thead><tr><th>FR</th><th>EN</th></tr></thead>
+  <tbody>
+    <tr><td class="fr">être accusé à tort</td><td><strong>to be wrongly accused</strong></td></tr>
+    <tr><td class="fr">être calomnié</td><td><strong>to be slandered</strong></td></tr>
+    <tr><td class="fr">salir quelqu'un / traîner quelqu'un dans la boue</td><td><strong>to sling mud at somebody</strong></td></tr>
+    <tr><td class="fr">L'affaire a été dévoilée.</td><td><strong>The affair was exposed.</strong></td></tr>
+    <tr><td class="fr">une arrestation</td><td><strong>an arrest</strong></td></tr>
+    <tr><td class="fr">être arrêté pour soupçon d'attouchements sur un enfant</td><td><strong>to be arrested on suspicion of molesting a child</strong></td></tr>
+    <tr><td class="fr">être interrogé pour allégations de trafic sexuel</td><td><strong>to be questioned under allegations of sex trafficking</strong></td></tr>
+    <tr><td class="fr">être placé en garde à vue / en détention</td><td><strong>to be put in custody</strong></td></tr>
+    <tr><td class="fr">être libéré de garde à vue</td><td><strong>to be released from custody</strong></td></tr>
+    <tr><td class="fr">faire l'objet d'une enquête</td><td><strong>to be under investigation</strong></td></tr>
+    <tr><td class="fr">faire rendre des comptes à qqn pour un crime</td><td><strong>to hold someone to account for a crime</strong></td></tr>
+    <tr><td class="fr">amener quelqu'un à rendre des comptes pour un crime</td><td><strong>to bring someone to account for a crime</strong></td></tr>
+    <tr><td class="fr">être placé en garde à vue pour un crime</td><td><strong>to be held accountable for a crime</strong></td></tr>
+    <tr><td class="fr">être amené à rendre des comptes pour un crime</td><td><strong>to be brought to account for a crime</strong></td></tr>
+    <tr><td class="fr">engager des poursuites contre quelqu'un</td><td><strong>to bring a case against someone</strong></td></tr>
+    <tr><td class="fr">poursuivre quelqu'un en justice</td><td><strong>to prosecute someone</strong> / <strong>to sue someone, sued, sued</strong></td></tr>
+    <tr><td class="fr">une action en justice</td><td><strong>a lawsuit</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 class="sec-h"><span class="roman">III.</span> Le procès</h3>
+
+<div class="tbl-wrap">
+<table class="voctable">
+  <thead><tr><th>FR</th><th>EN</th></tr></thead>
+  <tbody>
+    <tr><td class="fr">un procès</td><td><strong>a trial</strong></td></tr>
+    <tr><td class="fr">devoir affronter des accusations en justice</td><td><strong>to face charges</strong></td></tr>
+    <tr><td class="fr">être accusé de viol par la justice</td><td><strong>to be charged with rape</strong></td></tr>
+    <tr><td class="fr">être mis en examen pour un crime ou un délit</td><td><strong>to be indicted with a crime</strong></td></tr>
+    <tr><td class="fr">un acte d'accusation</td><td><strong>an indictment</strong></td></tr>
+    <tr><td class="fr">des dénégations (le fait de nier)</td><td><strong>denials</strong></td></tr>
+    <tr><td class="fr">des preuves incriminantes / accablantes</td><td><strong>incriminating evidence / damning evidence</strong></td></tr>
+    <tr><td class="fr">être condamné par la justice</td><td><strong>to be convicted</strong></td></tr>
+    <tr><td class="fr">être condamné par la justice pour viol</td><td><strong>to be convicted with rape</strong></td></tr>
+    <tr><td class="fr">une condamnation</td><td><strong>a conviction</strong></td></tr>
+    <tr><td class="fr">être condamné à une peine de prison</td><td><strong>to be sentenced to prison</strong></td></tr>
+    <tr><td class="fr">être coupable de</td><td><strong>to be guilty of</strong></td></tr>
+    <tr><td class="fr">la culpabilité</td><td><strong>guilt</strong></td></tr>
+    <tr><td class="fr">un coupable</td><td><strong>a culprit</strong></td></tr>
+    <tr><td class="fr">être déclaré coupable</td><td><strong>to be found guilty</strong></td></tr>
+    <tr><td class="fr">être déchu de ses droits (être privé de ses droits)</td><td><strong>to be stripped of one's rights</strong></td></tr>
+    <tr><td class="fr">être mis à la porte</td><td><strong>to be sacked / fired</strong></td></tr>
+    <tr><td class="fr">être renvoyé, congédié</td><td><strong>to be dismissed</strong></td></tr>
+    <tr><td class="fr">démissionner / quitter son poste</td><td><strong>to resign / to quit</strong></td></tr>
+    <tr><td class="fr">échapper à la justice</td><td><strong>to evade justice</strong></td></tr>
+    <tr><td class="fr">Il a été couvert. / Il a été protégé.</td><td><strong>He was covered for. / He was protected.</strong></td></tr>
+    <tr><td class="fr">L'affaire a été étouffée.</td><td><strong>The affair was covered up.</strong></td></tr>
+    <tr><td class="fr">Il a été déclaré non coupable.</td><td><strong>He was found not guilty.</strong></td></tr>
+    <tr><td class="fr">Il a été innocenté.</td><td><strong>He was exonerated. / He was cleared.</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+
+<!-- ====== CHAPITRE 11 — VOCAB ESSAI & CIVI ====== -->
+<div class="ch" id="c11">
+  <div class="cn">Chapitre 11</div>
+  <h2>Vocabulaire — essais &amp; civi</h2>
+  <p>18 entrées social media · 17 ChatGPT · civi London / UK / US / IA / versions / thèmes</p>
+</div>
+
+<h3 class="sec-h"><span class="roman">I.</span> Social media (essai 350 mots) — 18 entrées</h3>
+
+<div class="tbl-wrap">
+<table class="voctable">
+  <thead><tr><th>n°</th><th>Anglais</th><th>Français</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td><strong>an outage</strong></td><td class="fr">une panne électrique / informatique</td></tr>
+    <tr><td>2</td><td><strong>triggered panic</strong></td><td class="fr">a déclenché la panique</td></tr>
+    <tr><td>3</td><td><strong>has empowered us</strong></td><td class="fr">nous a donné du pouvoir</td></tr>
+    <tr><td>4</td><td><strong>(social) networking sites</strong></td><td class="fr">sites de réseaux sociaux</td></tr>
+    <tr><td>5</td><td><strong>to showcase</strong></td><td class="fr">exhiber (comme dans une vitrine)</td></tr>
+    <tr><td>6</td><td><strong>in the blink of an eye</strong></td><td class="fr">en un clin d'œil</td></tr>
+    <tr><td>7</td><td><strong>to get to know one another</strong></td><td class="fr">apprendre à se connaître</td></tr>
+    <tr><td>8</td><td><strong>open up to differences</strong></td><td class="fr">s'ouvrir aux différences</td></tr>
+    <tr><td>9</td><td><strong>keeps them engaged</strong></td><td class="fr">les tient en haleine</td></tr>
+    <tr><td>10</td><td><strong>engrossed in their apps</strong></td><td class="fr">absorbés par leurs applis</td></tr>
+    <tr><td>11</td><td><strong>dehumanising</strong></td><td class="fr">en train de déshumaniser</td></tr>
+    <tr><td>12</td><td><strong>slaves to machines</strong></td><td class="fr">esclaves des machines</td></tr>
+    <tr><td>13</td><td><strong>lose their own free will</strong></td><td class="fr">perdent leur libre arbitre</td></tr>
+    <tr><td>14</td><td><strong>it is not as clear-cut as</strong></td><td class="fr">ce n'est pas aussi tranché que</td></tr>
+    <tr><td>15</td><td><strong>both an enriching, liberating</strong></td><td class="fr">à la fois enrichissant, libérateur</td></tr>
+    <tr><td>16</td><td><strong>a double-edged sword</strong></td><td class="fr">une arme à double tranchant</td></tr>
+    <tr><td>17</td><td><strong>to escape its stifling grip</strong></td><td class="fr">échapper à son emprise étouffante</td></tr>
+    <tr><td>18</td><td><strong>scrolling</strong></td><td class="fr">faire défiler</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 class="sec-h"><span class="roman">II.</span> ChatGPT (essai 343 mots)</h3>
+
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th>Anglais</th><th>Français</th></tr></thead>
+  <tbody>
+    <tr><td><strong>effective software</strong></td><td class="fr">programmes performants</td></tr>
+    <tr><td><strong>to remove</strong></td><td class="fr">enlever</td></tr>
+    <tr><td><strong>to provide companies with</strong></td><td class="fr">donner aux compagnies de</td></tr>
+    <tr><td><strong>threat of yielding</strong></td><td class="fr">menace de céder</td></tr>
+    <tr><td><strong>no possible repair</strong></td><td class="fr">pas de réparation possible</td></tr>
+    <tr><td><strong>recourse</strong></td><td class="fr">recours</td></tr>
+    <tr><td><strong>bankruptcies</strong></td><td class="fr">faillites</td></tr>
+    <tr><td><strong>eventually</strong></td><td class="fr">finalement (≠ <em>éventuellement</em>)</td></tr>
+    <tr><td><strong>to harness</strong></td><td class="fr">canaliser, maîtriser</td></tr>
+    <tr><td><strong>in their stead</strong></td><td class="fr">à leur place</td></tr>
+    <tr><td><strong>to blunt</strong></td><td class="fr">émousser (≠ to sharpen = aiguiser)</td></tr>
+    <tr><td><strong>dumbing down</strong></td><td class="fr">abêtissement</td></tr>
+    <tr><td><strong>to prove detrimental to</strong></td><td class="fr">être préjudiciable à</td></tr>
+    <tr><td><strong>oversight</strong></td><td class="fr">supervision / contrôle</td></tr>
+    <tr><td><strong>to go off track</strong></td><td class="fr">dérailler</td></tr>
+    <tr><td><strong>sparring partners</strong></td><td class="fr">partenaires d'entraînement</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 class="sec-h"><span class="roman">III.</span> Civi London &amp; UK</h3>
+
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th>Anglais</th><th>Français</th></tr></thead>
+  <tbody>
+    <tr><td><strong>a borough</strong></td><td class="fr">un arrondissement</td></tr>
+    <tr><td><strong>a wharf</strong></td><td class="fr">un quai (au bord de l'eau)</td></tr>
+    <tr><td><strong>the Gherkin</strong></td><td class="fr">le Cornichon (gratte-ciel de la City)</td></tr>
+    <tr><td><strong>HQ = headquarters</strong></td><td class="fr">siège</td></tr>
+    <tr><td><strong>City Hall</strong></td><td class="fr">la mairie</td></tr>
+    <tr><td><strong>devolved parliament</strong></td><td class="fr">parlement décentralisé</td></tr>
+    <tr><td><strong>transfer of power</strong></td><td class="fr">transfert de pouvoir</td></tr>
+    <tr><td><strong>MPs (Members of Parliament)</strong></td><td class="fr">députés</td></tr>
+    <tr><td><strong>tuition fees</strong></td><td class="fr">frais de scolarité</td></tr>
+    <tr><td><strong>misrepresented</strong></td><td class="fr">mal représenté</td></tr>
+    <tr><td><strong>The Union Jack</strong></td><td class="fr">drapeau du UK</td></tr>
+    <tr><td><strong>Saltire</strong></td><td class="fr">croix diagonale</td></tr>
+    <tr><td><strong>housing crisis</strong></td><td class="fr">crise du logement</td></tr>
+    <tr><td><strong>strained infrastructures</strong></td><td class="fr">infrastructures saturées</td></tr>
+    <tr><td><strong>broad-minded</strong></td><td class="fr">large d'esprit</td></tr>
+    <tr><td><strong>welfare</strong></td><td class="fr">aides de l'État</td></tr>
+    <tr><td><strong>cranes</strong></td><td class="fr">grues (de chantier)</td></tr>
+    <tr><td><strong>magnet</strong></td><td class="fr">aimant (attractif)</td></tr>
+    <tr><td><strong>the Commonwealth</strong></td><td class="fr">la richesse commune</td></tr>
+    <tr><td><strong>to be fought hardily</strong></td><td class="fr">être fortement combattu</td></tr>
+    <tr><td><strong>to feel left out</strong></td><td class="fr">se sentir mis(e) de côté</td></tr>
+    <tr><td><strong>to resent sb</strong></td><td class="fr">en vouloir à qq</td></tr>
+    <tr><td><strong>misdemeanour</strong></td><td class="fr">délit mineur</td></tr>
+    <tr><td><strong>blameless</strong></td><td class="fr">sans reproche</td></tr>
+    <tr><td><strong>undue privilege</strong></td><td class="fr">privilège indu</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 class="sec-h"><span class="roman">IV.</span> Civi US politique</h3>
+
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th>Anglais</th><th>Français</th></tr></thead>
+  <tbody>
+    <tr><td><strong>power grab</strong></td><td class="fr">captation du pouvoir</td></tr>
+    <tr><td><strong>checks and balances</strong></td><td class="fr">système des pouvoirs et contre-pouvoirs</td></tr>
+    <tr><td><strong>illiberal democracy</strong></td><td class="fr">démocratie illibérale</td></tr>
+    <tr><td><strong>impeachment</strong></td><td class="fr">mise en accusation</td></tr>
+    <tr><td><strong>indictment</strong></td><td class="fr">acte d'accusation</td></tr>
+    <tr><td><strong>Attorney General</strong></td><td class="fr">ministre de la Justice (US)</td></tr>
+    <tr><td><strong>Department of Justice (DOJ)</strong></td><td class="fr">ministère de la Justice</td></tr>
+    <tr><td><strong>to fire / to sack / to dismiss</strong></td><td class="fr">renvoyer / virer</td></tr>
+    <tr><td><strong>to prosecute</strong></td><td class="fr">poursuivre en justice</td></tr>
+    <tr><td><strong>federal workers</strong></td><td class="fr">fonctionnaires fédéraux</td></tr>
+    <tr><td><strong>undocumented immigrants</strong></td><td class="fr">sans-papiers</td></tr>
+    <tr><td><strong>mass deportations</strong></td><td class="fr">expulsions massives</td></tr>
+    <tr><td><strong>ICE (Immigration and Customs Enforcement)</strong></td><td class="fr">police de l'immigration</td></tr>
+    <tr><td><strong>sanctuary city</strong></td><td class="fr">ville-refuge (protégeant les sans-papiers)</td></tr>
+    <tr><td><strong>counterfeit goods</strong></td><td class="fr">contrefaçons</td></tr>
+    <tr><td><strong>National Guard</strong></td><td class="fr">Garde nationale</td></tr>
+    <tr><td><strong>to take to the streets</strong></td><td class="fr">descendre dans la rue</td></tr>
+    <tr><td><strong>hammered out</strong></td><td class="fr">a martelé</td></tr>
+    <tr><td><strong>mid-term elections</strong></td><td class="fr">élections de mi-mandat</td></tr>
+    <tr><td><strong>the Senate</strong></td><td class="fr">le Sénat</td></tr>
+    <tr><td><strong>the House of Representatives</strong></td><td class="fr">la Chambre des représentants</td></tr>
+    <tr><td><strong>governors</strong></td><td class="fr">gouverneurs (d'État)</td></tr>
+    <tr><td><strong>sheriffs</strong></td><td class="fr">shérifs</td></tr>
+    <tr><td><strong>the establishment</strong></td><td class="fr">l'establishment (élites)</td></tr>
+    <tr><td><strong>the Democratic establishment</strong></td><td class="fr">l'appareil démocrate / les cadres du Parti</td></tr>
+    <tr><td><strong>grassroots</strong></td><td class="fr">la base militante</td></tr>
+    <tr><td><strong>liberal capitalism</strong></td><td class="fr">capitalisme libéral</td></tr>
+    <tr><td><strong>welfare</strong></td><td class="fr">aides de l'État</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 class="sec-h"><span class="roman">V.</span> Versions — vocabulaire récurrent</h3>
+
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th>Anglais</th><th>Français</th></tr></thead>
+  <tbody>
+    <tr><td><strong>to commute</strong></td><td class="fr">faire la navette domicile-travail</td></tr>
+    <tr><td><strong>to abide by</strong></td><td class="fr">se conformer à</td></tr>
+    <tr><td><strong>posturing</strong></td><td class="fr">posture / pose</td></tr>
+    <tr><td><strong>to make a mockery of</strong></td><td class="fr">tourner en dérision</td></tr>
+    <tr><td><strong>green agenda</strong></td><td class="fr">agenda écologique</td></tr>
+    <tr><td><strong>understatement</strong></td><td class="fr">sous-estimation</td></tr>
+    <tr><td><strong>to soar</strong></td><td class="fr">augmenter brusquement</td></tr>
+    <tr><td><strong>Gilded Age</strong></td><td class="fr">Âge Doré</td></tr>
+    <tr><td><strong>SNAP</strong></td><td class="fr">aide alimentaire supplémentaire</td></tr>
+    <tr><td><strong>shareholders</strong></td><td class="fr">actionnaires</td></tr>
+    <tr><td><strong>pay package</strong></td><td class="fr">enveloppe salariale</td></tr>
+    <tr><td><strong>chipmaker</strong></td><td class="fr">fabricant de puces</td></tr>
+    <tr><td><strong>mansion</strong></td><td class="fr">villa, manoir</td></tr>
+    <tr><td><strong>to halt</strong></td><td class="fr">interrompre</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 class="sec-h"><span class="roman">VI.</span> Thèmes — vocabulaire récurrent</h3>
+
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th>Anglais</th><th>Français</th></tr></thead>
+  <tbody>
+    <tr><td><strong>to squander</strong></td><td class="fr">dilapider</td></tr>
+    <tr><td><strong>to delude oneself</strong></td><td class="fr">se faire des illusions</td></tr>
+    <tr><td><strong>to nurture / to pursue a dream</strong></td><td class="fr">nourrir / poursuivre un rêve</td></tr>
+    <tr><td><strong>with a receding hairline</strong></td><td class="fr">ligne de cheveux qui recule</td></tr>
+    <tr><td><strong>balding</strong></td><td class="fr">en train de devenir chauve</td></tr>
+    <tr><td><strong>all along</strong></td><td class="fr">pendant tout ce temps</td></tr>
+    <tr><td><strong>to break the news</strong></td><td class="fr">annoncer la nouvelle</td></tr>
+    <tr><td><strong>to greet sb</strong></td><td class="fr">saluer qq</td></tr>
+    <tr><td><strong>paperwork</strong></td><td class="fr">paperasse</td></tr>
+    <tr><td><strong>to intercept</strong></td><td class="fr">happer / intercepter</td></tr>
+    <tr><td><strong>so-called</strong></td><td class="fr">dénommé / soi-disant</td></tr>
+    <tr><td><strong>co-worker</strong></td><td class="fr">collègue</td></tr>
+    <tr><td><strong>to rush / to hurry / to hasten</strong></td><td class="fr">se précipiter</td></tr>
+    <tr><td><strong>manufacturing workshop</strong></td><td class="fr">atelier de fabrication</td></tr>
+    <tr><td><strong>to mutter</strong></td><td class="fr">articuler mal, marmonner</td></tr>
+    <tr><td><strong>small talk / petite talk</strong></td><td class="fr">bavardages</td></tr>
+    <tr><td><strong>to grab</strong></td><td class="fr">se saisir de</td></tr>
+    <tr><td><strong>to pour</strong></td><td class="fr">verser</td></tr>
+    <tr><td><strong>emphatically</strong></td><td class="fr">avec emphase</td></tr>
+    <tr><td><strong>aggrieved</strong></td><td class="fr">peiné, chagriné</td></tr>
+    <tr><td><strong>weird-looking</strong></td><td class="fr">ayant l'air bizarre</td></tr>
+    <tr><td><strong>club armchair</strong></td><td class="fr">fauteuil club</td></tr>
+    <tr><td><strong>quavering voice</strong></td><td class="fr">voix chevrotante</td></tr>
+    <tr><td><strong>to catch sight of</strong></td><td class="fr">apercevoir</td></tr>
+    <tr><td><strong>worn</strong></td><td class="fr">abîmé / usé</td></tr>
+    <tr><td><strong>mischievous</strong> ≠ <strong>malicious</strong></td><td class="fr">malicieux ≠ malveillant</td></tr>
+    <tr><td><strong>kindness</strong></td><td class="fr">bonté</td></tr>
+    <tr><td><strong>family resemblance</strong></td><td class="fr">air de famille</td></tr>
+  </tbody>
+</table>
+</div>
+
+
+<!-- ====== CHAPITRE 12 — GRAMMAIRE ====== -->
+<div class="ch" id="c12">
+  <div class="cn">Chapitre 12</div>
+  <h2>Grammaire ciblée</h2>
+  <p>Past · regret (would have / wish / if only) · real conditionals</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c12-1"><span class="roman">I.</span> The past (Charlie Kirk)</a>
+  <a href="#c12-2"><span class="roman">II.</span> 8 phrases-types présent</a>
+  <a href="#c12-3"><span class="roman">III.</span> Expressing REGRET</a>
+  <a href="#c12-4"><span class="roman">IV.</span> Real conditionals</a>
+</nav>
+
+<h3 class="sec-h" id="c12-1"><span class="roman">I.</span> The past (lundi 22 septembre 2025)</h3>
+
+<div class="blk met">
+  <div class="blk-l">temps du passé</div>
+  Exemple-pivot : <strong>Charlie Kirk was a thirty-two-year-old ultra-conservative</strong> (attribut, prétérit).
+  <ul>
+    <li><strong>Prétérit</strong> = attribut du passé / date / habitude passée.</li>
+    <li>« He <strong>was shot dead</strong> while he <strong>was speaking</strong> to students on a campus in Utah. »</li>
+    <li>« Before he <strong>was killed</strong>, someone <strong>had asked</strong> him how many mass shooters... » → <strong>past perfect</strong> = passé du passé.</li>
+    <li>« The student asking the question <strong>had implied</strong> that being pro-gun led to many mass-shooters in the US » → <strong>past perfect</strong>.</li>
+    <li>« Charlie Kirk <strong>had been campaigning</strong> for Trump's ideas » → <strong>past perfect continuous</strong> = être en train de + depuis un certain temps.</li>
+  </ul>
+</div>
+
+<h3 class="sec-h" id="c12-2"><span class="roman">II.</span> 8 phrases-types (présent simple vs continuous vs perfect)</h3>
+
+<div class="blk met">
+  <div class="blk-l">cours grammaire (page 17)</div>
+  <ol>
+    <li>There is a world of difference between Unimate (1954) and today's <strong>AI-driven robots which are multiplying</strong> / <strong>have been multiplying</strong> (= depuis un certain temps).</li>
+    <li>AI can process a vast amount of data in no time, which allows / which enables more efficacy / more efficiency to solve problems and to make decisions. But can AI convey human emotions?</li>
+    <li>Among AI applications : self-driving cars, facial recognition, virtual assistants (Alexa, Siri), and a wide array of industrial applications which <strong>go</strong> (caractéristique, habitude → présent simple) / <strong>are going</strong> / <strong>have been going</strong> — which range from farming to healthcare.</li>
+    <li>Trusting / <strong>Over-relying</strong> on AI too much is a double-edged sword, for it can lead to a loss of critical thinking skills in individuals.</li>
+    <li>Cheating and plagiarism are part of the concerns raised by AI. → <em>to be part of</em> → présent simple.</li>
+    <li>Swindlers (= escrocs) <strong>use</strong> / <strong>are using</strong> / <strong>have been using</strong> <strong>deepfakes</strong>.</li>
+    <li>AI is bound to be scary when you think that some people <strong>try / are trying / have been trying</strong> to elaborate killer robots to wage war (= la guerre). Ethical robots are required.</li>
+    <li>For better or for worse, we must get used to living in a world of AI. Some people fear that human existence may become meaningless.</li>
+  </ol>
+</div>
+
+<h3 class="sec-h" id="c12-3"><span class="roman">III.</span> Expressing REGRET</h3>
+
+<div class="blk met">
+  <div class="blk-l">le regret au passé</div>
+  Idée : <strong>j'aurais dû / je n'aurais pas dû</strong>
+  <ul>
+    <li><strong>I should have done</strong> = j'aurais dû faire</li>
+    <li><strong>I ought to have done</strong> = j'aurais dû faire (variante)</li>
+    <li><strong>I should not have done</strong> = je n'aurais pas dû faire</li>
+    <li><strong>I ought not to have done</strong> = je n'aurais pas dû faire</li>
+  </ul>
+</div>
+
+<div class="blk met">
+  <div class="blk-l">si seulement / je regrette / j'aurais bien aimé</div>
+  « Si seulement Pronote fonctionnait aujourd'hui ! » — 3 tournures équivalentes au <strong>présent</strong> :
+  <ol>
+    <li><strong>If only</strong> Pronote <strong>were working</strong> today.</li>
+    <li><strong>I wish (that)</strong> Pronote <strong>were working</strong> today.</li>
+    <li><strong>If only</strong> Pronote <strong>worked</strong> today.</li>
+  </ol>
+  <strong>Au passé :</strong> « Je regrette qu'elle ne m'ait pas dit son secret. »
+  <ul>
+    <li><strong>I wish</strong> she <strong>had told</strong> me her secret.</li>
+    <li><strong>If only</strong> she <strong>had told</strong> me her secret.</li>
+    <li><strong>I regret</strong> not <strong>having called</strong>.</li>
+    <li>« À l'époque, j'aurais bien aimé qu'elle me dise son secret » → <strong>I wished she had told</strong> me her secret / <strong>would have told</strong> me her secret.</li>
+  </ul>
+</div>
+
+<div class="blk voc">
+  <div class="blk-l">modaux</div>
+  <strong>would / could / should</strong> + V (au présent du conditionnel ou hypothétique)<br>
+  <strong>could</strong> = capacité ≠ <strong>might</strong> → <em>may</em> (possibilité)
+</div>
+
+<h3 class="sec-h" id="c12-4"><span class="roman">IV.</span> Real conditionals (lundi 12 janvier 2026)</h3>
+
+<div class="blk met">
+  <div class="blk-l">would + V</div>
+  <strong>« Sometimes I'd like to go skiing in February. »</strong><br>
+  « I would like to go skiing in February » = je voudrais aller skier en février.<br>
+  Ex : <em>As far as skiing is concerned, I don't know, but he is unlikely to be keen on skiing.</em><br>
+  Ex : <em>He is supposed to have won his first medal thirty years ago.</em> → <strong>would have + V</strong> au conditionnel passé.<br>
+  Ex : <em>Si nous avions gagné</em> → <strong>If we had won</strong>, <strong>we would have gone to celebrate in the Caribbean.</strong>
+</div>
+
+
+<!-- ====== CHAPITRE 13 — ANNALES ====== -->
+<div class="ch" id="c13">
+  <div class="cn">Chapitre 13</div>
+  <h2>Annales d'entraînement</h2>
+  <p>DS N.2 Kantchelov · Sujet Écricome ECT1 décembre 2025 · DS ELVi 11 avril 2026</p>
+</div>
+
+<nav class="toc-ch">
+  <a href="#c13-1"><span class="roman">I.</span> DS N.2 Kantchelov</a>
+  <a href="#c13-2"><span class="roman">II.</span> Écricome ECT1 déc 2025</a>
+  <a href="#c13-3"><span class="roman">III.</span> DS ELVi 11 avril 2026</a>
+</nav>
+
+<h3 class="sec-h" id="c13-1"><span class="roman">I.</span> DS N.2 ECT1 — Kantchelov 2025</h3>
+
+<p style="color: var(--muted); font-size: 14px; padding: 8px; background: rgba(99,102,241,.06); border-radius: 6px;">Deux thèmes au choix, extraits de <em>Tout le monde garde son calme</em> de Dimitri Kantchelov (2025) — voir corrigés complets phrase-par-phrase au <a href="#c5-2" style="color: var(--azure);">Chapitre 5 / II.</a> (Thème A — Lefebvre/Victor) et <a href="#c5-3" style="color: var(--azure);">5 / III.</a> (Thème B — Cognac).</p>
+
+<h3 class="sec-h" id="c13-2"><span class="roman">II.</span> Sujet Écricome ECT1 — Décembre 2025</h3>
+
+<h4 class="sub">1 — VERSION /5 pts — Starbucks Niccol</h4>
+
+<div class="source">
+  <span class="src-tag">📜 The Guardian, 27 August 2024 — texte complet du sujet</span>
+  <strong>Starbucks' CEO commutes to work by private jet</strong><br><br>
+  Last week Starbucks made headlines after it was revealed its new CEO, Brian Niccol, who has been described as the "messiah" the coffee company had been searching for, will be commuting to the office three days a week. But since he lives in California is going to abide by the company's policy of being in the office three days a week. A corporate jet is really the only way to go. And the Starbucks HQ is more than a thousand miles away in Seattle, a corporate jet, and working towards a Back in 2018 the company made a lot of noise about how it was getting rid of plastic straws and working towards a recyclable "cup solution". What is the point of that posturing if you are then going to stick your CEO on a private jet a couple of times a week? As environmental groups and plenty of angry people on the internet have pointed out, this super-commute makes a mockery of Starbucks' supposed "green agenda".
+</div>
+
+<p style="margin-top: 8px; color: var(--muted); font-size: 13px;">→ Corrigé verbatim Mme Boutrit dans la section <a href="#c6-3" style="color: var(--azure);">Versions / III.</a></p>
+
+<h4 class="sub">2 — THÈME /5 pts — Jean-Louis Debré</h4>
+
+<div class="source">
+  <span class="src-tag">📜 J.-L. Debré, Une Histoire de Famille, 24 octobre 2019</span>
+  Mon père me fait signe de le suivre.<br>
+  Au bout d'un moment, nous retrouvons mon grand-père, Robert Debré. Le regard bleu éclaire toujours son visage mince, rayonnant d'intelligence et de bonté. Il est tranquillement assis au bord de l'eau. À ses côtés, mon arrière-grand-père se tient debout. Je le reconnais tout de suite, avec sa barbe blanche, son grand front, ses lunettes rondes, son regard malicieux. Il correspond au portrait que m'a offert mon père et que j'ai accroché dans mon bureau. En les observant tous les quatre, je suis frappé par leur air de famille.<br>
+  Jacques s'adresse à moi en hébreu, puis en yiddish.<br>
+  — Bienvenue parmi nous! Je suis heureux de te voir, traduit-il, heureusement.<br>
+  — Nous vous attendions, m'indique Simon.<br>
+  Jacques me demande ce que je recherche dans notre histoire de famille.<br>
+  — Simplement mieux vous connaître afin de savoir d'où je viens, qui je suis.<br>
+  — Sais-tu que les Juifs étaient auparavant écartés de la vie sociale?<br>
+  Tiré de Jean-Louis Debré, <em>Une Histoire de Famille</em>, 24 octobre 2019
+</div>
+
+<p style="margin-top: 8px; color: var(--muted); font-size: 13px;">→ Corrigé verbatim phrase-par-phrase au <a href="#c5-5" style="color: var(--azure);">Chapitre 5 / V.</a></p>
+
+<h4 class="sub">3 — ESSAI /10 pts (au choix entre 2 sujets)</h4>
+
+<div class="blk met">
+  <div class="blk-l">consignes essai (verbatim sujet)</div>
+  Les candidats traiteront <strong>l'un des deux sujets proposés</strong> et indiqueront le nombre de mots employés en portant les mentions suivantes très lisiblement et à l'encre : repère formé d'un <strong>double trait //</strong> dans le texte écrit après chaque tranche de 50 mots, décompté chiffré cumulatif (50, 100, 150, etc.) en regard dans la marge, total exact en fin d'exercice.
+  <ol>
+    <li><strong>Will ChatGPT and other large language models ultimately serve or disserve humans?</strong> → voir <a href="#c3-5" style="color: var(--azure);">modèle 343w au Ch.3 / V.</a></li>
+    <li><strong>Has social media added to our lives or on the contrary taken away from our existence?</strong> → voir <a href="#c3-6" style="color: var(--azure);">modèle 350w au Ch.3 / VI.</a></li>
+  </ol>
+</div>
+
+<h3 class="sec-h" id="c13-3"><span class="roman">III.</span> DS ELVi 11 avril 2026 — NYC and London</h3>
+
+<div class="blk met">
+  <div class="blk-l">contexte</div>
+  <p>DS ELVi (= HEC et co) du 11 avril 2026 sur le thème <strong>« NYC and London »</strong>. Le thème 1 portait sur NYC (sanctuary city, ICE, Todd Lyons, Adrienne Adams) — voir <a href="#c8-4" style="color: var(--azure);">Ch.8 / IV.</a></p>
+  <p>L'unseen du 13 avril 2026 portait sur Trump fires Pam Bondi, remplacée par Todd Blanche — voir <a href="#c8-3" style="color: var(--azure);">Ch.8 / III.</a></p>
+</div>
+
+
+<!-- ====== CHAPITRE 14 — CHECKLIST JOUR J ====== -->
+<div class="ch" id="c14">
+  <div class="cn">Chapitre 14</div>
+  <h2>Checklist Jour J — mercredi 27 mai 2026</h2>
+  <p>Matériel · horaires · stratégie temps · découpage 4h · réflexes de relecture</p>
+</div>
+
+<h3 class="sec-h"><span class="roman">I.</span> Matériel</h3>
+
+<ul class="check">
+  <li>3 copies (au moins)</li>
+  <li>1 brouillon</li>
+  <li>Stylos bleu / noir + couleurs pour mise en avant</li>
+  <li>Effaceur / blanc correcteur</li>
+  <li>À manger (barre de céréales / fruit)</li>
+  <li>À boire (gourde / bouteille d'eau)</li>
+  <li>Mouchoirs</li>
+  <li>Convocation + pièce d'identité (CNI)</li>
+  <li>Montre (pas de portable !)</li>
+</ul>
+
+<h3 class="sec-h"><span class="roman">II.</span> Horaires</h3>
+
+<ul class="check">
+  <li><strong>13h55</strong> — arrivée chapelle</li>
+  <li>Toilettes avant l'épreuve</li>
+  <li>Durée totale : <strong>4h</strong> (tiers-temps compris)</li>
+</ul>
+
+<h3 class="sec-h"><span class="roman">III.</span> Stratégie temps</h3>
+
+<div class="boutrit">
+  <strong>PRIORITÉ ABSOLUE : Q1 + Q2 → /20</strong><br>
+  Le thème (traduction) est <em>bonus</em> et ne se traite qu'<strong>après</strong> Q1+Q2 si du temps reste.<br>
+  Ne pas se laisser tenter par le thème en premier (timing piège).
+</div>
+
+<h3 class="sec-h"><span class="roman">IV.</span> Découpage 4h proposé</h3>
+
+<div class="blk met">
+  <div class="blk-l">timing CB</div>
+  <ul>
+    <li><strong>0h00 → 0h15 :</strong> lecture complète du sujet · repérage Q1/Q2 · identification des angles &amp; thèmes communs aux 2 docs</li>
+    <li><strong>0h15 → 1h45 :</strong> brouillon Q1 (résumé analytique comparatif 315-385w) — structure intro / 2-3 parts comparatives / conclu</li>
+    <li><strong>1h45 → 3h00 :</strong> rédaction au propre Q1 sur copie (avec // tous les 50 mots + décompte cumulatif en marge)</li>
+    <li><strong>3h00 → 3h30 :</strong> Q2 (essai 250-350w) — analyse de termes + démonstration en 2 parts + conclu</li>
+    <li><strong>3h30 → 3h50 :</strong> relecture Q1+Q2 (orthographe / temps / "s" 3e personne / décompte exact)</li>
+    <li><strong>3h50 → 4h00 :</strong> <em>si temps restant</em> → attaquer le thème uniquement</li>
+  </ul>
+</div>
+
+<h3 class="sec-h"><span class="roman">V.</span> Réflexes de relecture</h3>
+
+<ul class="check">
+  <li>Vérifier les <strong>temps</strong> (présent simple vs continuous vs perfect)</li>
+  <li>Vérifier les <strong>"s"</strong> (3e personne du sg + pluriels)</li>
+  <li>Vérifier les <strong>spelling mistakes</strong> (ex : <em>which</em>)</li>
+  <li>Vérifier l'<strong>ordre naturel S/V + COD</strong></li>
+  <li>Pas de <strong>V-ing + V-ing</strong> à la suite</li>
+  <li><strong>cannot</strong> à l'écrit (jamais <em>can't</em>)</li>
+  <li>Pas de <strong>choix</strong> à proposer dans la traduction (trancher)</li>
+  <li><strong>Décompte de mots</strong> : // tous les 50 + cumulatif marge + total exact final</li>
+  <li><strong>Lisibilité</strong> : écrire toutes les 2 lignes</li>
+  <li><strong>Accents</strong> respectés en français (les noms d'auteur, etc.)</li>
+</ul>
+
+<div class="boutrit">
+  Si tu ne sais plus quoi mettre, retombe sur les <strong>5 sources de matière</strong> (Ch.3) :<br>
+  1. cours d'anglais 2. acquis sur 2 ans 3. BBC News / CBS / The Guardian 4. ta propre culture 5. ton vécu.<br>
+  Et n'oublie pas : <strong>"I believe that..."</strong> pour ouvrir une opinion en Q2.
+</div>
+
+
+<footer class="foot">
+  Fiche v2 · refonte palette océan · construite à partir des 83 photos transmises (IMG_8641 → IMG_8723) · Mme Boutrit ECT1.<br>
+  Verbatim strict — pas d'invention. 14 chapitres · S.K./Mamdani officiel · Crimes &amp; Felonies polycopié verbatim · 5 modèles d'essai.
+</footer>
+
+</div>
+</body>
+</html>
